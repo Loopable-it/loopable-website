@@ -1,17 +1,16 @@
 @import "../../App.css";
 
-.Header {
+.Hero {
+    min-height: 94vh;
     padding-inline: 10rem;
 }
 
-.Header-logo {
-    height: 2rem;
-    margin-block: 5px;
-    pointer-events: none;
+.Hero-container {
+    min-height: 94vh
 }
 
 @media only screen and (max-width: 480px) {
-    .Header {
+    .Hero {
         padding-inline: 1rem;
     }
 }

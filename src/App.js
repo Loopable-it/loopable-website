@@ -1,15 +1,12 @@
-import logo from './assets/logo.svg'
 import Header from './components/header/Header';
+import Hero from './components/Hero/Hero';
 import './App.css';
 
 function App() {
   return (
     <>
       <Header></Header>
-      <div className="App">
-        <img src={logo} className="App-logo" alt="logo"></img>
-        <p>Coming soon...</p>
-      </div>
+      <Hero></Hero>
     </>
   );
 }
