@@ -19,8 +19,12 @@ function Hero() {
                 </div>
 
                 <div className="col-12 col-sm-6 px-0">
-                    <img src={singleMockup} className="d-none d-md-block"></img>
-                    <img src={doubleMockup} className="d-block d-md-none"></img>
+                    <img src={singleMockup}
+                        alt="An iPhone showing the homepage of the Loopable app"
+                        className="d-none d-md-block"/>
+                    <img src={doubleMockup}
+                        alt="Two iPhones showing the homepage and the search results of the Loopable app"
+                        className="d-block d-md-none"/>
                 </div>
             </div>
         </div>
