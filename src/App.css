@@ -14,3 +14,10 @@
   height: 15vmin;
   pointer-events: none;
 }
+
+.Primary-button {
+  color: #FFF;
+  background-color: #000;
+  border-radius: 3rem;
+  text-decoration: none;
+}

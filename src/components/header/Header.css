@@ -1,0 +1,10 @@
+@import "../../App.css";
+
+.Header-logo {
+    height: 2rem;
+    pointer-events: none;
+}
+
+.navbar {
+    padding-inline: 10rem;
+}
