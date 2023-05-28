@@ -1,0 +1,16 @@
+@import "../../App.css";
+
+.Features {
+    background-image: url("../../assets/bg.png");
+    background-size: cover;
+    min-height: 400px;
+    padding-inline: 10rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .Features {
+        padding-block: 2rem;
+        padding-inline: 1rem;
+        min-height: 450px;
+    }
+}

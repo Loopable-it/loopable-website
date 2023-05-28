@@ -1,10 +1,16 @@
 .Primary-button {
+  height: 40px;
+  min-width: 110px;
   color: #FFF;
   background-color: #000;
   border-radius: 3rem;
 }
 
 .Secondary-button {
+  height: 55px;
+  min-width: 150px;
+  max-width: 190px;
+  border: 0;
   color: #FFF;
   background-color: #18CE40;
   border-radius: 3rem;

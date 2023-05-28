@@ -12,16 +12,24 @@ h1 {
   font-size: calc(50px + 2vmin);
 }
 
-p {
-  font-family: 'Manrope', sans-serif;
-  font-size: calc(8px + 2vmin);
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(10px + 2vmin);
 }
 
-a {
+p {
+  font-family: 'Manrope', sans-serif;
+  font-size: calc(5px + 2vmin);
+}
+
+i {
+  font-size: calc(40px + 2vmin);
+}
+
+button {
   font-family: 'Manrope', sans-serif;
   font-weight: bold;
   font-size: 16px;
-  text-decoration: none;
 }
 
 img {

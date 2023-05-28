@@ -8,9 +8,9 @@ function Header() {
                 <img src={logo} alt="Logo Loopable" className="Header-logo" />
             </a>
 
-            <a className="py-2 px-4 d-none d-sm-inline Primary-button" href="/">
+            <button className="d-none d-sm-inline Primary-button">
                 Notify me
-            </a>
+            </button>
         </nav>
     );
 }
