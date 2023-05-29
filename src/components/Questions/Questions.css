@@ -1,0 +1,9 @@
+@import "../../App.css";
+
+.Questions {
+    padding-inline: 10rem;
+}
+
+.Questions img {
+    height: 400px;
+}

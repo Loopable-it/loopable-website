@@ -1,5 +1,5 @@
 import singleMockup from "../../assets/hero-single-mockup.png";
-import './Hero.css';
+import "./Hero.css";
 
 function Hero() {
     return (
