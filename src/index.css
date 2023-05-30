@@ -27,6 +27,11 @@ p {
   font-size: calc(5px + 2vmin);
 }
 
+a {
+  font-family: 'Manrope', sans-serif;
+  font-size: calc(5px + 2vmin);
+}
+
 i {
   font-size: calc(40px + 2vmin);
 }
@@ -48,6 +53,10 @@ img {
   }
 
   p {
+    font-size: 18px;
+  }
+
+  a {
     font-size: 18px;
   }
 }

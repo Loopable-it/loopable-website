@@ -1,0 +1,39 @@
+@import "../../App.css";
+
+.Team {
+    padding-inline: 10rem;
+}
+
+.Team-card {
+    padding: 3rem;
+    background: rgba(24, 206, 64, 0.25);
+    border-radius: 30px;
+}
+
+.Team-card-content img {
+    height: 300px;
+}
+
+.Linkedin-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.fa-linkedin {
+    font-size: calc(5px + 2vmin);
+}
+
+@media only screen and (max-width: 480px) {
+    .Team {
+        padding-inline: 1rem;
+    }
+
+    .Team-card {
+        padding: 1rem;
+    }
+
+    .Team-card-content img {
+        height: 150px;
+    }
+}

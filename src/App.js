@@ -2,6 +2,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import Questions from './components/Questions/Questions';
+import Team from './components/Team/Team';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero></Hero>
       <Features></Features>
       <Questions></Questions>
+      <Team></Team>
     </>
   );
 }
