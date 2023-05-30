@@ -1,0 +1,24 @@
+@import "../../App.css";
+
+.Download {
+    padding-inline: 10rem;
+    padding-top: 5rem;
+    background-color: #18CE40;
+}
+
+.Download img {
+    height: 500px;
+}
+
+.Email-form {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1;
+  }

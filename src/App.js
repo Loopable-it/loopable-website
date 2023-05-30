@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import Questions from './components/Questions/Questions';
 import Team from './components/Team/Team';
+import Download from './components/Download/Download';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Features></Features>
       <Questions></Questions>
       <Team></Team>
+      <Download></Download>
     </>
   );
 }

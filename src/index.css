@@ -22,6 +22,13 @@ h3 {
   font-size: calc(10px + 2vmin);
 }
 
+h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: calc(10px + 2vmin);
+  font-weight: 400;
+  color: #fff;
+}
+
 p {
   font-family: 'Manrope', sans-serif;
   font-size: calc(5px + 2vmin);
