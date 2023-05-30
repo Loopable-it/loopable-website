@@ -7,3 +7,20 @@
 .Questions img {
     height: 400px;
 }
+
+@media only screen and (max-width: 480px) {
+    .Questions {
+        padding-inline: 1rem;
+    }
+
+    .Questions img {
+        height: 200px;
+    }
+
+    .Questions-card {
+        background-color: #fff;
+        box-shadow: 0px 0px 15px 2px rgba(70, 70, 70, 0.1);
+        border-radius: 30px;
+        padding: 1rem;
+    }
+}
