@@ -12,7 +12,7 @@ function Team() {
                         <a className="Linkedin-link" href="https://www.linkedin.com/company/loopable-it" target="_blank" rel="noreferrer">
                             <span>
                                 <i class="fa-brands fa-linkedin me-2"></i>
-                                Follow ou LikedIn page
+                                Follow our LinkedIn page
                             </span>
                         </a>
                     </div>
