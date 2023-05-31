@@ -18,7 +18,23 @@
     padding: 1rem;
     border-radius: 10px;
 }
+
 ::placeholder {
     color: #fff;
     opacity: 1;
-  }
+}
+
+@media only screen and (max-width: 480px) {
+    .Download {
+        padding-top: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .Download img {
+        height: 350px;
+    }
+    
+    .Email-form {
+        padding: 0.7rem;
+    }
+}
