@@ -1,3 +1,25 @@
 {
-    "test_1": "Hello"
+    "Shared_LearnMore": "Learn more",
+    "Shared_NotifyMe": "Notify me",
+    "Hero_Title": "Renting items made easy",
+    "Hero_Description": "Experience the freedom of flexible renting and earning through unused items",
+    "Features_Earn": "Earn",
+    "Features_Earn_Description": "Make money by lending",
+    "Features_Rent": "Rent",
+    "Features_Rent_Description": "Effortlessly book and enjoy",
+    "Features_Share": "Share",
+    "Features_Share_Description": "Embrace collaborative consumption",
+    "Question_WhatIs": "What is Loopable?",
+    "Question_WhatIs_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Question_Why": "Why should you use Loopable?",
+    "Question_Why_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Question_How": "How do we help our planet?",
+    "Question_How_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Team_OurTeam": "Our team",
+    "Team_OurTeam_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Team_FollowLinkedIn": "Follow our LinkedIn page",
+    "Download_Title": "Start putting your items on to the loop today",
+    "Download_Email_Placeholder": "Email",
+    "Footer_Description": "Renting marketplace for earning and contributing in the circular economy.",
+    "Footer_Copyright": "© 2023 Loopable. All rights reserved"
 }

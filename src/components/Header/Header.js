@@ -4,6 +4,8 @@ import logo from "../../assets/logo.svg";
 import "./Header.css";
 
 function Header(props) {
+    const { t } = props;
+
     const onLanguageChanged = (event) => {
         let language = event.currentTarget.value;
         props.i18n.changeLanguage(language);
@@ -21,7 +23,7 @@ function Header(props) {
 
             <div className="d-flex justify-content-evenly">
                 <button className="Primary-button d-none d-sm-inline me-5">
-                    Notify me
+                    {t("Shared_NotifyMe")}
                 </button>
                 <button className={`Header-language-button ${isLanguageSelected("en")}`}
                         value="en" onClick={(value) => onLanguageChanged(value)}>

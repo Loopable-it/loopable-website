@@ -4,19 +4,21 @@ import singleMockup from "../../assets/hero-single-mockup.png";
 import doubleMockup from "../../assets/hero-double-mockup.png";
 import "./Hero.css";
 
-function Hero() {
+function Hero(props) {
+    const { t } = props;
+
     return (
         <div className="Hero w-100">
             <div className="Hero-container row mx-0 d-flex align-items-center">
                 <div className="col-12 col-sm-6 px-0">
                     <h1 className="mb-5">
-                        Renting items made easy
+                        {t("Hero_Title")}
                     </h1>
                     <p className="mb-5">
-                        Experience the freedom of flexible renting and earning through unused items
+                        {t("Hero_Description")}
                     </p>
                     <button className="Secondary-button">
-                        Learn more
+                        {t("Shared_LearnMore")}
                     </button>
                 </div>
 

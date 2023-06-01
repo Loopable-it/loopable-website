@@ -1,3 +1,25 @@
 {
-    "test_1": "Ciao"
+    "Shared_LearnMore": "Scopri di più",
+    "Shared_NotifyMe": "Avvisami",
+    "Hero_Title": "Noleggiare oggetti è facile",
+    "Hero_Description": "Prova la libertà di un noleggio flessibile e di guadagnare con gli articoli che non usi",
+    "Features_Earn": "Guadagna",
+    "Features_Earn_Description": "Guadagna con gli oggetti che non usi ma che non vuoi vendere",
+    "Features_Rent": "Affitta",
+    "Features_Rent_Description": "Prenota e goditi senza problemi gli oggetti che ti servono",
+    "Features_Share": "Condividi",
+    "Features_Share_Description": "Abbraccia l'economia circolare e condividi gli oggetti che non usi",
+    "Question_WhatIs": "Cos'è Loopable?",
+    "Question_WhatIs_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Question_Why": "Perché dovresti usare Loopable?",
+    "Question_Why_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Question_How": "Come aiutiamo il nostro pianeta?",
+    "Question_How_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Team_OurTeam": "Il nostro team",
+    "Team_OurTeam_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "Team_FollowLinkedIn": "Seguici sulla pagina LinkedIn",
+    "Download_Title": "Inizia a mettere i tuoi oggetti nel loop oggi stesso",
+    "Download_Email_Placeholder": "Email",
+    "Footer_Description": "Marketplace del noleggio per guadagnare e contribuire all'economia circolare.",
+    "Footer_Copyright": "© 2023 Loopable. Tutti i diritti riservati"
 }
