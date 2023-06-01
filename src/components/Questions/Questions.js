@@ -24,14 +24,14 @@ function Questions(props) {
                       <img src={whyShould} alt="" />
                 </div>
                 <div className="col-12 col-sm-6 text-center text-sm-start">
-                    <h2>{t("Question_Why")}</h2>
-                    <p>{t("Question_Why_Answer")}</p>
+                    <h2>{t("Question_Earn")}</h2>
+                    <p>{t("Question_Earn_Answer")}</p>
                 </div>
             </div>
             <div className="Questions-card row mx-0 d-flex align-items-center mb-4">
                 <div className="col-12 col-sm-6 text-center text-sm-start">
-                    <h2>{t("Question_How")}</h2>
-                    <p>{t("Question_How_Answer")}</p>
+                    <h2>{t("Question_Possibilities")}</h2>
+                    <p>{t("Question_Possibilities_Answer")}</p>
                 </div>
                 <div className="d-flex col-12 order-first justify-content-center col-sm-6 order-sm-last justify-content-sm-end">
                       <img src={how} alt="" />
