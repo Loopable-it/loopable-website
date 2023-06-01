@@ -4,6 +4,7 @@ import Features from './components/Features/Features';
 import Questions from './components/Questions/Questions';
 import Team from './components/Team/Team';
 import Download from './components/Download/Download';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Questions></Questions>
       <Team></Team>
       <Download></Download>
+      <Footer></Footer>
     </>
   );
 }

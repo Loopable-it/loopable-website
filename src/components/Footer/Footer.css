@@ -1,0 +1,28 @@
+@import "../../App.css";
+
+.Footer {
+    padding-block: 5rem;
+    background-color: #DEF8E4;
+    padding-inline: 10rem;
+}
+
+.Footer-logo {
+    height: 2rem;
+    pointer-events: none;
+}
+
+.Copyright {
+    padding: 0.5rem;
+    padding-inline: 10rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .Footer {
+        padding-block: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .Copyright {
+        padding-inline: 1rem;
+    }
+}
