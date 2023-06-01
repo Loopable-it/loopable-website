@@ -16,7 +16,7 @@ function Team() {
                             </span>
                         </a>
                     </div>
-                    <div className="d-flex col-12 order-first justify-content-center col-sm-6 order-sm-last">
+                    <div className="d-flex col-12 order-first justify-content-center justify-content-sm-end col-sm-6 order-sm-last">
                         <img src={teamPic} alt="Our team" className="mb-3 mb-sm-0" />
                     </div>
                 </div>

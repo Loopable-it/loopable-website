@@ -12,6 +12,7 @@
 
 .Team-card-content img {
     height: 300px;
+    border-radius: 15px;
 }
 
 .Linkedin-link {
@@ -35,5 +36,6 @@
 
     .Team-card-content img {
         height: 150px;
+        border-radius: 10px;
     }
 }
