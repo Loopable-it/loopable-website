@@ -1,4 +1,5 @@
 import singleMockup from "../../assets/hero-single-mockup.png";
+import doubleMockup from "../../assets/hero-double-mockup.png";
 import "./Hero.css";
 
 function Hero() {
@@ -17,10 +18,17 @@ function Hero() {
                     </button>
                 </div>
 
-                <div className="col-12 col-sm-6 px-0">
+                <div className="col-12 col-sm-6 px-0 d-flex align-items-start mb-5">
                     <img src={singleMockup}
                         alt="An iPhone showing the homepage of the Loopable app"
                         className="d-none d-md-block"/>
+                    <img src={doubleMockup}
+                        alt="Two iPhone showing the homepage and the search result of the Loopable app"
+                        className="Hero-mockup d-block d-md-none"/>
+                </div>
+
+                <div className="d-block d-md-none col-12 px-0 d-flex align-items-start justify-content-center">
+                    <i class="fa-solid fa-chevron-down" style={{fontSize: "2rem"}}></i>
                 </div>
             </div>
         </div>

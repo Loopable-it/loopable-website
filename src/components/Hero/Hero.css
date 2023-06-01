@@ -9,6 +9,9 @@
     min-height: 94vh
 }
 
+.Hero-mockup {
+    max-width: 358px;
+}
 @media only screen and (max-width: 480px) {
     .Hero {
         padding-inline: 1rem;
