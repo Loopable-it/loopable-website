@@ -9,6 +9,10 @@ function Header(props) {
         props.i18n.changeLanguage(language);
     };
 
+    const isLanguageSelected = (language) => {
+        return props.i18n.language === language ? "fw-bold" : "";
+    };
+
     return (
         <nav className="Header navbar border-bottom">
             <a className="mx-auto mx-sm-0" href="/">
@@ -16,13 +20,16 @@ function Header(props) {
             </a>
 
             <div className="d-flex justify-content-evenly">
-                <button className="Primary-button d-none d-sm-inline me-3">
+                <button className="Primary-button d-none d-sm-inline me-5">
                     Notify me
                 </button>
-                <button className="" value="en" onClick={(value) => onLanguageChanged(value)}>
+                <button className={`Header-language-button ${isLanguageSelected("en")}`}
+                        value="en" onClick={(value) => onLanguageChanged(value)}>
                     EN
                 </button>
-                <button className="" value="it" onClick={(value) => onLanguageChanged(value)}>
+                <div class="vr my-2"></div>
+                <button className={`Header-language-button ${isLanguageSelected("it")}`}
+                    value="it" onClick={(value) => onLanguageChanged(value)}>
                     IT
                 </button>
             </div>
