@@ -1,3 +1,5 @@
+import { withTranslation } from "react-i18next";
+
 import singleMockup from "../../assets/hero-single-mockup.png";
 import doubleMockup from "../../assets/hero-double-mockup.png";
 import "./Hero.css";
@@ -35,4 +37,4 @@ function Hero() {
     );
 }
 
-export default Hero;
+export default withTranslation()(Hero);
