@@ -15,7 +15,7 @@ function Team(props) {
                         <p>{t("Team_OurTeam_Description")}</p>
                         <a className="Linkedin-link" href="https://www.linkedin.com/company/loopable-it" target="_blank" rel="noreferrer">
                             <span>
-                                <i class="fa-brands fa-linkedin me-2"></i>
+                                <i className="fa-brands fa-linkedin me-2"></i>
                                 {t("Team_FollowLinkedIn")}
                             </span>
                         </a>

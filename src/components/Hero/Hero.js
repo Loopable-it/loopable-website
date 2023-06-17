@@ -32,7 +32,7 @@ function Hero(props) {
                 </div>
 
                 <div className="d-block d-md-none col-12 px-0 d-flex align-items-start justify-content-center">
-                    <i class="fa-solid fa-chevron-down" style={{fontSize: "2rem"}}></i>
+                    <i className="fa-solid fa-chevron-down" style={{fontSize: "2rem"}}></i>
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ function Header(props) {
                         value="en" onClick={(value) => onLanguageChanged(value)}>
                     EN
                 </button>
-                <div class="vr my-2"></div>
+                <div className="vr my-2"></div>
                 <button className={`Header-language-button ${isLanguageSelected("it")}`}
                     value="it" onClick={(value) => onLanguageChanged(value)}>
                     IT
