@@ -1,25 +1,39 @@
 {
     "Shared_LearnMore": "Scopri di più",
     "Shared_NotifyMe": "Avvisami",
+
     "Hero_Title": "Noleggiare oggetti è facile",
     "Hero_Description": "Prova la libertà di un noleggio flessibile e di guadagnare con gli articoli che non usi",
+
     "Features_Earn": "Guadagna",
     "Features_Earn_Description": "Guadagna con gli oggetti che non usi ma che non vuoi vendere",
     "Features_Rent": "Affitta",
     "Features_Rent_Description": "Prenota e goditi senza problemi gli oggetti che ti servono",
     "Features_Share": "Condividi",
     "Features_Share_Description": "Abbraccia l'economia circolare e condividi gli oggetti che non usi",
+
     "Question_WhatIs": "Cos'è Loopable?",
     "Question_WhatIs_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "Question_Earn": "Guadagnare prestando dagli oggetti che non usi",
     "Question_Earn_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "Question_Possibilities": "Come aiutiamo il nostro pianeta?",
     "Question_Possibilities_Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+
     "Team_OurTeam": "Il nostro team",
     "Team_OurTeam_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "Team_FollowLinkedIn": "Seguici sulla pagina LinkedIn",
+
+    "Business_Description": "Se hai un'attività locale di noleggio il piano Loopable for Business fa al caso tuo. Aumenta la visibilità, gestisci i noleggi con facilità e aumenta il profitto.",
+    "Business_Promote": "Fai conoscere la tua attività",
+    "Business_Promote_Description": "Promuovi gli annunci dei tuoi prodotti",
+    "Business_Manage": "Gestisci i tuoi noleggi",
+    "Business_Manage_Description": "Gestisci con facilità i noleggi in corso e le prenotazioni future",
+    "Business_Rent": "Più noleggi",
+    "Business_Rent_Description": "Entra a far parte della piattaforma più innovativa per i noleggi in Italia",
+
     "Download_Title": "Inizia a mettere i tuoi oggetti nel loop oggi stesso",
     "Download_Email_Placeholder": "Email",
+
     "Footer_Description": "Marketplace del noleggio per guadagnare e contribuire all'economia circolare.",
     "Footer_Copyright": "© 2023 Loopable. Tutti i diritti riservati"
 }

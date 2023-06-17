@@ -5,6 +5,7 @@ import Questions from './components/Questions/Questions';
 import Team from './components/Team/Team';
 import Download from './components/Download/Download';
 import Footer from './components/Footer/Footer';
+import Business from './components/Business/Business';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features></Features>
       <Questions></Questions>
       <Team></Team>
+      <Business></Business>
       <Download></Download>
       <Footer></Footer>
     </>

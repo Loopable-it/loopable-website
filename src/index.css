@@ -29,6 +29,11 @@ h4 {
   color: #fff;
 }
 
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(3px + 2vmin);
+}
+
 h6 {
   font-family: 'Manrope', sans-serif;
   font-size: 1rem;

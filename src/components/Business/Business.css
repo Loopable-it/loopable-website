@@ -1,0 +1,33 @@
+@import "../../App.css";
+
+.Business {
+    padding-inline: 10rem;
+    padding-block: 2rem;
+    background-color: #F2F2F2;
+}
+
+.Business-logo {
+    height: 6rem;
+    pointer-events: none;
+}
+
+.Business-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgba(70, 70, 70, 0.25) 1px;
+    border-radius: 2rem;
+    max-width: 300px;
+    min-height: 100px;
+}
+
+.Business-card h5 {
+    min-height: 50px;
+}
+
+.Business-card i {
+    color: #18CE40;
+    font-size: calc(20px + 2vmin);;
+}
+
+.Business-card p {
+    font-size: 2vmin;
+}
