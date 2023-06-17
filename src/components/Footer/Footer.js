@@ -45,7 +45,7 @@ function Footer(props) {
                         </ul>
                     </div>
 
-                    <div className="Footer-link col-auto text-center mb-3 col-sm-2 text-sm-start mb-sm-0">
+                    <div className="Footer-link col-auto text-center mb-3 col-sm-4 text-sm-start mb-sm-0">
                         <h5>{t("Footer_DownloadApp")}</h5>
                         <ul>
                             <li>
