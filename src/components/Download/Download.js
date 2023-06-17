@@ -1,6 +1,6 @@
 import { withTranslation } from "react-i18next";
 
-import mockup from "../../assets/mockup_3.png"
+import mockup from "../../assets/mockup_3.png";
 import "./Download.css";
 
 function Download(props) {

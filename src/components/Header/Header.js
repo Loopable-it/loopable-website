@@ -17,7 +17,7 @@ function Header(props) {
 
     return (
         <nav className="Header navbar border-bottom">
-            <a className="mx-auto mx-sm-0" href="/">
+            <a className="mx-0" href="/">
                 <img src={logo} alt="Logo Loopable" className="Header-logo" />
             </a>
 
