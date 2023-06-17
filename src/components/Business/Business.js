@@ -24,7 +24,7 @@ function Business(props) {
         <div className="Business w-100 mb-0 text-center">
             <img src={logoBusiness} alt="Logo Loopable business" className="Business-logo"/>
 
-            <p className="w-100 w-sm-75 my-4 mx-auto">{t("Business_Description")}</p>
+            <p className="w-75 my-4 mx-auto">{t("Business_Description")}</p>
 
             <div className="row mx-0 d-flex justify-content-around">
                 {
