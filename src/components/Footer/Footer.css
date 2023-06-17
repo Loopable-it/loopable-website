@@ -11,9 +11,25 @@
     pointer-events: none;
 }
 
+.Footer-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Footer-link i {
+    font-size: 15px;
+}
+
 .Copyright {
     padding: 0.5rem;
     padding-inline: 10rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 480px) {

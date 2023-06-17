@@ -1,6 +1,7 @@
 {
     "Shared_LearnMore": "Scopri di più",
     "Shared_NotifyMe": "Avvisami",
+    "Shared_ComingSoon": "(prossimamente)",
 
     "Hero_Title": "Noleggiare oggetti è facile",
     "Hero_Description": "Prova la libertà di un noleggio flessibile e di guadagnare con gli articoli che non usi",
@@ -35,5 +36,9 @@
     "Download_Email_Placeholder": "Email",
 
     "Footer_Description": "Marketplace del noleggio per guadagnare e contribuire all'economia circolare.",
+    "Footer_FollowUs": "Seguici su",
+    "Footer_DownloadApp": "Scarica l'app",
+    "Footer_AppiOS": "Loopable su iOS",
+    "Footer_AppAndroid": "Loopable su Android",
     "Footer_Copyright": "© 2023 Loopable. Tutti i diritti riservati"
 }

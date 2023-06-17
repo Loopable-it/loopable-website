@@ -1,6 +1,7 @@
 {
     "Shared_LearnMore": "Learn more",
     "Shared_NotifyMe": "Notify me",
+    "Shared_ComingSoon": "(coming soon)",
 
     "Hero_Title": "Renting items made easy",
     "Hero_Description": "Experience the freedom of flexible renting and earning through unused items",
@@ -35,5 +36,9 @@
     "Download_Email_Placeholder": "Email",
 
     "Footer_Description": "Renting marketplace for earning and contributing in the circular economy.",
+    "Footer_FollowUs": "Follow us on",
+    "Footer_DownloadApp": "Download the app",
+    "Footer_AppiOS": "Loopable on iOS",
+    "Footer_AppAndroid": "Loopable on Android",
     "Footer_Copyright": "© 2023 Loopable. All rights reserved"
 }
