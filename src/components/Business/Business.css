@@ -31,3 +31,21 @@
 .Business-card p {
     font-size: 2vmin;
 }
+
+@media only screen and (max-width: 480px) {
+    .Business {
+        padding-inline: 1rem;
+    }
+
+    .Business-logo {
+        height: 5rem;
+    }
+
+    .Business-card h5 {
+        min-height: 15px;
+    }
+
+    .Business-card p {
+        font-size: 14px;
+    }
+}
