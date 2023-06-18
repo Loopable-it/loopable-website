@@ -11,6 +11,10 @@
     pointer-events: none;
 }
 
+.Business-description {
+    width: 50%;
+}
+
 .Business-card {
     background-color: rgba(255, 255, 255, 0.5);
     border: solid rgba(70, 70, 70, 0.25) 1px;
@@ -39,6 +43,10 @@
 
     .Business-logo {
         height: 5rem;
+    }
+
+    .Business-description {
+        width: 100%;
     }
 
     .Business-card h5 {
