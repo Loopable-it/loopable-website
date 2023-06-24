@@ -7,7 +7,7 @@ function Download(props) {
     const { t } = props;
 
     return (
-        <div className="Download w-100 mb-0 text-center">
+        <div className="Download w-100 mb-0 text-center" id="download-section">
             <h4 className="Download-title mb-5">
                 {t("Download_Title")}
             </h4>

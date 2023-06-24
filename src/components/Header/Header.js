@@ -1,4 +1,5 @@
 import { withTranslation } from "react-i18next";
+import { scrollDownToTarget } from "../../utilities/functionalities";
 
 import logo from "../../assets/logo.svg";
 import "./Header.css";
@@ -15,6 +16,8 @@ function Header(props) {
         return props.i18n.language === language ? "fw-bold" : "";
     };
 
+    const _scrollDownToTarget = scrollDownToTarget;
+
     return (
         <nav className="Header navbar border-bottom">
             <a className="mx-0" href="/">
@@ -22,7 +25,7 @@ function Header(props) {
             </a>
 
             <div className="d-flex justify-content-evenly">
-                <button className="Primary-button d-none d-sm-inline me-5">
+                <button className="Primary-button d-none d-sm-inline me-5" onClick={() => _scrollDownToTarget("download-section")}>
                     {t("Shared_NotifyMe")}
                 </button>
                 <button className={`Header-language-button ${isLanguageSelected("en")}`}
