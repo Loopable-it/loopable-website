@@ -31,7 +31,7 @@ function Footer(props) {
                             {
                                 contactList.map((item) => {
                                     return (
-                                        <li>
+                                        <li key={item.name}>
                                             <a className="Footer-link" href={item.link} target="_blank" rel="noreferrer">
                                                 <span>
                                                     <i className={`fa-brands ${item.icon} me-2`}></i>
