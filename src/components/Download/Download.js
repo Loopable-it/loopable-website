@@ -12,11 +12,9 @@ function Download(props) {
                 {t("Download_Title")}
             </h4>
 
-            <input className="Email-form mb-3" placeholder={t("Download_Email_Placeholder")} type="email" size="30" />
-
             <div className="w-100"></div>
 
-            <button className="Primary-button mb-5">
+            <button className="Primary-button mb-5" onClick={() => window.open("http://eepurl.com/iuaINI", "_blank", "noreferrer")}>
                 {t("Shared_NotifyMe")}
             </button>
 
