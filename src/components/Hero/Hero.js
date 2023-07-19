@@ -30,7 +30,7 @@ function Hero(props) {
                         alt="An iPhone showing the homepage of the Loopable app"
                         className="d-none d-md-block"/>
                     <img src={doubleMockup}
-                        alt="Two iPhone showing the homepage and the search result of the Loopable app"
+                        alt="Two iPhones showing the homepage and the search result of the Loopable app"
                         className="Hero-mockup d-block d-md-none"/>
                 </div>
 
