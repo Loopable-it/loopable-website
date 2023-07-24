@@ -12,8 +12,19 @@
 .Hero-mockup {
     max-width: 358px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .Hero {
         padding-inline: 1rem;
     }
+}
+
+@media only screen and (max-width: 960px) {
+    .Hero {
+        padding-inline: 3rem;
+    }
+}
+
+.single-mockup{
+    width: 40rem;
+    min-width: 32rem;
 }

@@ -17,7 +17,7 @@
     color: #000;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .Header {
         padding-inline: 1rem;
     }

@@ -13,7 +13,7 @@ function Hero(props) {
     return (
         <div className="Hero w-100">
             <div className="Hero-container row mx-0 d-flex align-items-center">
-                <div className="col-12 col-sm-6 px-0">
+                <div className="col-12 col-md-6 px-0">
                     <h1 className="mb-5">
                         {t("Hero_Title")}
                     </h1>
@@ -25,10 +25,10 @@ function Hero(props) {
                     </button>
                 </div>
 
-                <div className="col-12 col-sm-6 px-0 d-flex align-items-start mb-5">
+                <div className="col-12 col-md-6 px-0 d-flex align-items-start mb-5">
                     <img src={singleMockup}
                         alt="An iPhone showing the homepage of the Loopable app"
-                        className="d-none d-md-block"/>
+                        className="d-none d-md-block img-fluid single-mockup"/>
                     <img src={doubleMockup}
                         alt="Two iPhones showing the homepage and the search result of the Loopable app"
                         className="Hero-mockup d-block d-md-none"/>
