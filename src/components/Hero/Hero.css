@@ -9,22 +9,24 @@
     min-height: 94vh
 }
 
-.Hero-mockup {
-    max-width: 358px;
+.Hero-double-mockup {
+    max-width: 23rem;
 }
+
+.Hero-single-mockup{
+    width: 40rem;
+    min-width: 32rem;
+}
+
 @media only screen and (max-width: 768px) {
     .Hero {
         padding-inline: 1rem;
     }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) and (min-width: 768px){
     .Hero {
-        padding-inline: 3rem;
+        padding-inline: 4rem;
     }
 }
 
-.single-mockup{
-    width: 40rem;
-    min-width: 32rem;
-}
