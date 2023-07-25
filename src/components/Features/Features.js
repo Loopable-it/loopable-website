@@ -27,7 +27,7 @@ function Features(props) {
             {
                 featuresList.map((item) => {
                     return (
-                        <div className="col-12 col-sm-4" key={item.key}>
+                        <div className="col-12 col-md-4" key={item.key}>
                             <i className={`${item.icon} mb-3`} style={{color: item.color}}/>
                             <h3>{t(`Features_${item.key}`)}</h3>
                             <p>{t(`Features_${item.key}_Description`)}</p>
