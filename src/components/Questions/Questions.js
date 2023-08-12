@@ -10,30 +10,30 @@ function Questions(props) {
 
     return (
         <div className="Questions w-100 my-4">
-            <div className="Questions-card row mx-0 d-flex align-items-center mb-4">
-                <div className="col-12 col-sm-6 text-center text-sm-start">
+            <div className="Questions-card row mx-0 d-flex align-items-center mb-5">
+                <div className="col-12 col-md-6 text-center text-md-start">
                     <h2>{t("Question_WhatIs")}</h2>
                     <p>{t("Question_WhatIs_Answer")}</p>
                 </div>
-                <div className="d-flex col-12 order-first justify-content-center col-sm-6 order-sm-last justify-content-sm-end">
-                      <img src={whatIs} alt="" />
+                <div className="d-flex col-12 order-first justify-content-center col-md-6 order-md-last justify-content-md-end">
+                      <img src={whatIs} alt="" class="img-fluid"/>
                 </div>
             </div>
-            <div className="Questions-card row mx-0 d-flex align-items-center mb-4">
-                <div className="d-flex col-12 justify-content-center col-sm-6 justify-content-sm-start">
+            <div className="Questions-card row mx-0 d-flex align-items-center mb-5">
+                <div className="d-flex col-12 justify-content-center col-md-6 justify-content-md-start">
                       <img src={whyShould} alt="" />
                 </div>
-                <div className="col-12 col-sm-6 text-center text-sm-start">
+                <div className="col-12 col-md-6 text-center text-md-start">
                     <h2>{t("Question_Earn")}</h2>
                     <p>{t("Question_Earn_Answer")}</p>
                 </div>
             </div>
-            <div className="Questions-card row mx-0 d-flex align-items-center mb-4">
-                <div className="col-12 col-sm-6 text-center text-sm-start">
+            <div className="Questions-card row mx-0 d-flex align-items-center mb-5">
+                <div className="col-12 col-md-6 text-center text-md-start">
                     <h2>{t("Question_Possibilities")}</h2>
                     <p>{t("Question_Possibilities_Answer")}</p>
                 </div>
-                <div className="d-flex col-12 order-first justify-content-center col-sm-6 order-sm-last justify-content-sm-end">
+                <div className="d-flex col-12 order-first justify-content-center col-md-6 order-md-last justify-content-md-end">
                       <img src={how} alt="" />
                 </div>
             </div>

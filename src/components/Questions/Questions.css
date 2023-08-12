@@ -5,7 +5,16 @@
 }
 
 .Questions img {
-    height: 400px;
+    max-width: 25rem;
+}
+
+@media only screen and (max-width: 1170px) and (min-width: 480px){
+    .Questions img {
+        height:  19rem;
+    }
+    .Questions {
+        padding-inline: 2rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -14,7 +23,7 @@
     }
 
     .Questions img {
-        height: 200px;
+        height:  13rem;
     }
 
     .Questions-card {
@@ -24,3 +33,4 @@
         padding: 1rem;
     }
 }
+
