@@ -28,7 +28,7 @@ function Hero(props) {
                 <div className="col-12 col-md-6 px-0 d-flex align-items-start mb-5">
                     <img src={singleMockup}
                         alt="An iPhone showing the homepage of the Loopable app"
-                        className="Hero-single-mockup d-none d-md-block img-fluid"/>
+                        className="Hero-single-mockup d-none d-md-block"/>
                     <img src={doubleMockup}
                         alt="Two iPhones showing the homepage and the search result of the Loopable app"
                         className="Hero-double-mockup d-block d-md-none"/>
