@@ -30,10 +30,10 @@ function Business(props) {
                 {
                     cardContent.map((item) => {
                         return (
-                            <div className="Business-card p-4 mb-3 mb-sm-0 col-12 col-sm-4" key={item.key}>
+                            <div className="Business-card p-4 mb-3 mb-md-0 col-12 col-md-4" key={item.key}>
                                 <i className={item.icon}></i>
                                 <h5 className="mt-3">{t(`Business_${item.key}`)}</h5>
-                                <p className="mx-sm-5">{t(`Business_${item.key}_Description`)}</p>
+                                <p className="mx-lg-5">{t(`Business_${item.key}_Description`)}</p>
                             </div>
                         );
                     })

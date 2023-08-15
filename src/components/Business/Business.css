@@ -12,7 +12,7 @@
 }
 
 .Business-description {
-    width: 50%;
+    font-size: 1.2rem;
 }
 
 .Business-card {
@@ -55,5 +55,11 @@
 
     .Business-card p {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .Business {
+        padding-inline: 4rem;
     }
 }

@@ -10,7 +10,7 @@ function Team(props) {
         <div className="Team w-100 mb-4">
             <div className="Team-card">
                 <div className="Team-card-content row mx-0 d-flex align-items-center">
-                    <div className="col-12 col-sm-6 text-center text-sm-start">
+                    <div className="col-12 col-xl-6 text-center text-xl-start">
                         <h2>{t("Team_OurTeam")}</h2>
                         <p>{t("Team_OurTeam_Description")}</p>
                         <a className="Linkedin-link" href="https://www.linkedin.com/company/loopable-it" target="_blank" rel="noreferrer">
@@ -20,8 +20,8 @@ function Team(props) {
                             </span>
                         </a>
                     </div>
-                    <div className="d-flex col-12 order-first justify-content-center justify-content-sm-end col-sm-6 order-sm-last">
-                        <img src={teamPic} alt="Our team" className="mb-3 mb-sm-0" />
+                    <div className="d-flex  col-12 order-first justify-content-center justify-content-lg-end col-xl-6 order-xl-last">
+                        <img src={teamPic} alt="Our team" className="mb-3 mb-lg-0 " />
                     </div>
                 </div>
             </div>

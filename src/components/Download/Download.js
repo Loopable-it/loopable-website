@@ -23,8 +23,9 @@ function Download(props) {
             </button>
 
             <div className="w-100"></div>
-
-            <img src={mockup} alt="" />
+                
+            <img src={mockup} alt="" className="Donwload-mockup" />
+            
         </div>
     );
 }
