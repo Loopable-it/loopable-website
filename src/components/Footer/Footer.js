@@ -15,17 +15,17 @@ function Footer(props) {
     return (
         <>
             <div className="Footer w-100">
-                <div className="row mx-0 d-flex justify-content-center justify-content-sm-between">
-                    <div className="col-auto text-center mb-3 col-sm-2 text-sm-start mb-sm-0">
+                <div className="row mx-0 d-flex justify-content-center justify-content-md-between">
+                    <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
                         <img src={logo} alt="Logo Loopable" className="Footer-logo mb-2" />
                         <h6>
                             {t("Footer_Description")}
                         </h6>
                     </div>
 
-                    <div className="col-auto d-none d-sm-block"></div>
+                    <div className="col-auto d-none d-md-block"></div>
 
-                    <div className="col-auto text-center mb-3 col-sm-2 text-sm-start mb-sm-0">
+                    <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
                         <h5>{t("Footer_FollowUs")}</h5>
                         <ul>
                             {
@@ -45,7 +45,7 @@ function Footer(props) {
                         </ul>
                     </div>
 
-                    <div className="Footer-link col-auto text-center mb-3 col-sm-4 text-sm-start mb-sm-0">
+                    <div className="Footer-link col-12 text-center mb-3 col-md-4 text-md-start mb-md-0">
                         <h5>{t("Footer_DownloadApp")}</h5>
                         <ul>
                             <li>
@@ -67,7 +67,7 @@ function Footer(props) {
                 </div>
             </div>
             <div className="Copyright w-100">
-                <h6 className="mb-0 text-center text-sm-start">{t("Footer_Copyright")}</h6>
+                <h6 className="mb-0 text-center text-md-start">{t("Footer_Copyright")}</h6>
             </div>
         </>
     );

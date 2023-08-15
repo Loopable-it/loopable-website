@@ -42,3 +42,13 @@ ul {
         padding-inline: 1rem;
     }
 }
+
+@media only screen and (max-width: 960px){
+    .Footer {
+        padding-inline: 4rem;
+        padding-block: 3rem;
+    }
+    .Copyright {
+        padding-inline: 4rem;
+    }
+}
