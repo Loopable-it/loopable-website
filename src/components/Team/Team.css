@@ -11,7 +11,7 @@
 }
 
 .Team-card-content img {
-    max-width: 30rem;
+    min-width: 25rem;
     border-radius: 15px;
 }
 
@@ -41,7 +41,7 @@
     }
 
     .Team-card-content img {
-        height: 150px;
+        min-width: 18rem;
         border-radius: 10px;
     }
 }
