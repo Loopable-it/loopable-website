@@ -14,7 +14,7 @@ function Hero(props) {
         <div className="Hero w-100">
             <div className="Hero-container row mx-0 d-flex align-items-center">
                 <div className="col-12 col-md-6 px-0">
-                    <h1 className="mb-5">
+                    <h1 className="mb-5 mt-5 mt-md-0">
                         {t("Hero_Title")}
                     </h1>
                     <p className="mb-5">
