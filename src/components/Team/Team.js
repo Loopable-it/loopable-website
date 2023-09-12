@@ -1,16 +1,31 @@
 import { withTranslation } from "react-i18next";
 
-import teamPic from "../../assets/IMG_5075.jpg";
+import MaggyPic from "../../assets/photo_maggy.png";
+import MattiaPic from "../../assets/photo_mattia.png";
 import "./Team.css";
 
 function Team(props) {
     const { t } = props;
+    const teamList = [
+        {
+            image: MaggyPic,
+            name: "Maggy Protasio",
+            role: "Co-Founder · Business Lead",
+            description: "Team_Member_Maggy"
+        },
+        {
+            image: MattiaPic,
+            name: "Mattia Cintura",
+            role: "Co-Founder · Tech Lead",
+            description: "Team_Member_Mattia"
+        },
+    ];
 
     return (
         <div className="Team w-100 mb-4">
             <div className="Team-card">
-                <div className="Team-card-content row mx-0 d-flex align-items-center">
-                    <div className="col-12 col-xl-6 text-center text-xl-start">
+                <div className="Team-card-content row mx-0 text-center d-flex align-items-center px-0 px-xl-5">
+                    <div className="col-12 pb-5">
                         <h2>{t("Team_OurTeam")}</h2>
                         <p>{t("Team_OurTeam_Description")}</p>
                         <a className="Linkedin-link" href="https://www.linkedin.com/company/loopable-it" target="_blank" rel="noreferrer">
@@ -20,9 +35,22 @@ function Team(props) {
                             </span>
                         </a>
                     </div>
-                    <div className="d-flex  col-12 order-first justify-content-center justify-content-lg-end col-xl-6 order-xl-last">
-                        <img src={teamPic} alt="Our team" className="mb-3 mb-lg-0 " />
-                    </div>
+                    {
+                        teamList.map((item) => {
+                            return (
+                                <div className="Team-member col-12 col-xl-6 mb-3 mb-xl-0">
+                                    <img src={item.image} alt={item.name} className="mb-2" />
+                                    <h3 className="mb-2">{item.name}</h3>
+                                    <p className="text-secondary mb-1">
+                                        {item.role}
+                                    </p>
+                                    <h6>
+                                        {t(item.description)}
+                                    </h6>
+                                </div>
+                            );
+                        })
+                    }
                 </div>
             </div>
         </div>

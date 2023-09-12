@@ -11,8 +11,15 @@
 }
 
 .Team-card-content img {
-    min-width: 25rem;
-    border-radius: 15px;
+    max-width: 12rem;
+}
+
+.Team-member h6 {
+    padding-inline: 6rem;
+}
+
+.Team-member p {
+    font-size: 2vmin;
 }
 
 .Linkedin-link {
@@ -26,8 +33,12 @@
 }
 
 @media only screen and (max-width: 960px) and (min-width: 480px){
-    .Team{
+    .Team {
         padding-inline: 4rem;
+    }
+
+    .Team-member h6 {
+        padding-inline: 3rem;
     }
 }
 
@@ -40,9 +51,16 @@
         padding: 2rem;
     }
 
+    .Team-member h6 {
+        padding-inline: 1rem;
+    }
+
     .Team-card-content img {
-        min-width: 18rem;
-        border-radius: 10px;
+        max-width: 10rem;
+    }
+
+    .Team-member p {
+        font-size: 14px;
     }
 }
 

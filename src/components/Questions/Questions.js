@@ -16,7 +16,7 @@ function Questions(props) {
                     <p>{t("Question_WhatIs_Answer")}</p>
                 </div>
                 <div className="d-flex col-12 order-first justify-content-center col-md-6 order-md-last justify-content-md-end">
-                      <img src={whatIs} alt="" class="img-fluid"/>
+                      <img src={whatIs} alt="" className="img-fluid"/>
                 </div>
             </div>
             <div className="Questions-card row mx-0 d-flex align-items-center mb-5">
