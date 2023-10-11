@@ -11,13 +11,15 @@ function Team(props) {
             image: MaggyPic,
             name: "Maggy Protasio",
             role: "Co-Founder · Business Lead",
-            description: "Team_Member_Maggy"
+            description: "Team_Member_Maggy",
+            linkedin: "https://www.linkedin.com/in/maggy-protasio/"
         },
         {
             image: MattiaPic,
             name: "Mattia Cintura",
             role: "Co-Founder · Tech Lead",
-            description: "Team_Member_Mattia"
+            description: "Team_Member_Mattia",
+            linkedin: "https://www.linkedin.com/in/mattia-cintura/"
         },
     ];
 
@@ -47,6 +49,12 @@ function Team(props) {
                                     <h6>
                                         {t(item.description)}
                                     </h6>
+                                    <a className="Linkedin-link" href={item.linkedin} target="_blank" rel="noreferrer">
+                                        <span>
+                                            <i className="fa-brands fa-linkedin me-2"></i>
+                                            LinkedIn
+                                        </span>
+                                    </a>
                                 </div>
                             );
                         })
