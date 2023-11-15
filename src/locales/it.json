@@ -34,13 +34,13 @@
   "Business_Rent": "Più noleggi",
   "Business_Rent_Description": "Entra a far parte della piattaforma più innovativa per i noleggi in Italia",
 
-  "Download_Title": "La nostra app",
-  "Download_Description": "L'app non è ancora disponibile, iscriviti alla nostra newsletter per essere aggiornato quando sarà disponibile",
-  "Download_NewsletterSubscribe": "Iscriviti",
+  "MobileApp_Title": "La nostra app",
+  "MobileApp_Description": "L'app non è ancora disponibile, iscriviti alla nostra newsletter per essere aggiornato quando sarà disponibile",
+  "MobileApp_NewsletterSubscribe": "Iscriviti",
 
   "Footer_Description": "Marketplace del noleggio per guadagnare e contribuire all'economia circolare.",
   "Footer_FollowUs": "Seguici su",
-  "Footer_DownloadApp": "Scarica l'app",
+  "Footer_MobileAppApp": "Scarica l'app",
   "Footer_AppiOS": "Loopable su iOS",
   "Footer_AppAndroid": "Loopable su Android",
   "Footer_Copyright": "© 2023 Loopable. Tutti i diritti riservati"

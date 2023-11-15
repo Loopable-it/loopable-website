@@ -34,13 +34,13 @@
   "Business_Rent": "Increase",
   "Business_Rent_Description": "Elevate your audience and sales",
 
-  "Download_Title": "Our app",
-  "Download_Description": "The app is not availbale yet, subscribe to our newsletter to be notified when it will become availbale",
-  "Download_NewsletterSubscribe": "Subscribe",
+  "MobileApp_Title": "Our app",
+  "MobileApp_Description": "The app is not availbale yet, subscribe to our newsletter to be notified when it will become availbale",
+  "MobileApp_NewsletterSubscribe": "Subscribe",
 
   "Footer_Description": "Renting marketplace for earning and contributing in the circular economy.",
   "Footer_FollowUs": "Follow us on",
-  "Footer_DownloadApp": "Download the app",
+  "Footer_MobileAppApp": "MobileApp the app",
   "Footer_AppiOS": "Loopable on iOS",
   "Footer_AppAndroid": "Loopable on Android",
   "Footer_Copyright": "© 2023 Loopable. All rights reserved"

@@ -1,11 +1,11 @@
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Features from './components/Features/Features';
-import Questions from './components/Questions/Questions';
-import Team from './components/Team/Team';
-import Download from './components/Download/Download';
-import Footer from './components/Footer/Footer';
-import Business from './components/Business/Business';
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Features from "./components/Features/Features";
+import Questions from "./components/Questions/Questions";
+import Team from "./components/Team/Team";
+import MobileApp from "./components/MobileApp/MobileApp";
+import Footer from "./components/Footer/Footer";
+import Business from "./components/Business/Business";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Questions></Questions>
       <Team></Team>
       <Business></Business>
-      <Download></Download>
+      <MobileApp></MobileApp>
       <Footer></Footer>
     </>
   );

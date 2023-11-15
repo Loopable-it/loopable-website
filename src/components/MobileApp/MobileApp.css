@@ -1,0 +1,49 @@
+@import "../../App.css";
+
+.MobileApp {
+  padding-inline: 10rem;
+  padding-top: 5rem;
+  background-color: #18ce40;
+}
+
+.MobileApp img {
+  max-width: 30rem;
+  min-width: 10rem;
+}
+
+.Email-form {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .MobileApp {
+    padding-top: 2rem;
+    padding-inline: 1rem;
+  }
+
+  .MobileApp img {
+    height: 18rem;
+  }
+
+  .Email-form {
+    padding: 0.7rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .MobileApp {
+    padding-inline: 4rem;
+  }
+  .MobileApp img {
+    max-width: 24rem;
+  }
+}
