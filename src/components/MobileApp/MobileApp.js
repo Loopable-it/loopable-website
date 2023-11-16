@@ -1,7 +1,6 @@
 import { withTranslation } from "react-i18next";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useRef } from "react";
 
 import search from "../../assets/search.webp";
 import product from "../../assets/product.webp";
