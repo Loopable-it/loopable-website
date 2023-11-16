@@ -1,7 +1,7 @@
 .Primary-button {
   height: 40px;
   min-width: 110px;
-  color: #FFF;
+  color: #fff;
   border: 0;
   background-color: #000;
   border-radius: 3rem;
@@ -12,7 +12,11 @@
   min-width: 150px;
   max-width: 190px;
   border: 0;
-  color: #FFF;
-  background-color: #18CE40;
+  color: #fff;
+  background-color: #18ce40;
   border-radius: 3rem;
+}
+
+.bg-green-loop {
+  background-color: #18ce40;
 }

@@ -7,8 +7,8 @@ import "./Header.css";
 function Header(props) {
   const { t } = props;
 
-  const onLanguageChanged = (event) => {
-    let language = event.currentTarget.value;
+  const onLanguageChanged = ({ currentTarget }) => {
+    const language = currentTarget.value;
     props.i18n.changeLanguage(language);
   };
 
