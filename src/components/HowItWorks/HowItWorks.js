@@ -5,67 +5,61 @@ import priceImage from "../../assets/loopable-product-price.webp";
 
 import "./HowItWorks.css";
 
-function HowItWorks() {
+function HowItWorks(props) {
+    const { t } = props;
+
     const stepsList = [
-        // {
-        //     key: 0,
-        //     icon: "fa-solid fa-right-to-bracket",
-        //     title: "Login",
-        //     subtitle: "Voluptate suscipit sed porro sunt sed dolor amet."
-        // },
         {
-            key: 0,
             icon: "fa-solid fa-magnifying-glass",
-            title: "Search what you need",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet."
+            title: "How_It_Works_Step_1_Title",
+            subtitle: "How_It_Works_Step_1_Subtitle"
         },
         {
-            key: 1,
             icon: "fa-solid fa-thumbs-up",
-            title: "Choose the best option",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet."
+            title: "How_It_Works_Step_2_Title",
+            subtitle: "How_It_Works_Step_2_Subtitle"
         },
         {
-            key: 2,
             icon: "fa-solid fa-wand-magic-sparkles",
-            title: "Rent it",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet."
+            title: "How_It_Works_Step_3_Title",
+            subtitle: "How_It_Works_Step_3_Subtitle"
         },
     ];
 
     return (
         <div className="HowItWorks">
             <p className="small-bold-text grey-text text-center p-0">
-                <span className="green-text">-</span> How it works
+                <span className="green-text">-</span> {t("How_It_Works_Section_Title")}
             </p>
 
             <h2 className="large-title grey-text text-center">
-                Rent what you need in<br/>
-                <span className="green-text">{stepsList.length} easy steps</span>
+                {t("How_It_Works_Title_1")}<br/>
+                <span className="green-text">{stepsList.length} {t("How_It_Works_Title_2")}</span>
             </h2>
 
             <div className="row mx-0 my-5">
                 <div className="col-12 col-md-6 px-0 bg-secondary">
                     
                 </div>
+
                 <div className="col-12 col-md-6 px-0">
                     {
-                        stepsList.map((item) => {
-                            let iconStyle = item.key != stepsList.length - 1 ? 
+                        stepsList.map((item, index) => {
+                            let iconStyle = index !== stepsList.length - 1 ? 
                                 "grey-text bg-body-secondary bg-opacity-75" : 
                                 "green-text light-green-bg"
                             
-                            let textStyle = item.key != stepsList.length - 1 ? 
+                            let textStyle = index !== stepsList.length - 1 ? 
                                 "grey-text" : 
                                 "green-text"    
                             return (
-                                <div className="row mx-0 mb-5" key={item.key}>
-                                    <div className="col-auto">
+                                <div className="row mx-0 mb-5" key={index}>
+                                    <div className="col-auto mb-3 mb-sm-0">
                                         <i className={`${item.icon} ${iconStyle} p-4 rounded-circle`} style={{fontSize: "25px"}}></i>
                                     </div>
-                                    <div className="col-auto align-self-center">
-                                        <h3 className={`medium-bold-text ${textStyle} m-0`}>{item.title}</h3>
-                                        <p className={`medium-text ${textStyle} m-0`}>{item.subtitle}</p>
+                                    <div className="col align-self-center">
+                                        <h3 className={`medium-bold-text ${textStyle} m-0`}>{t(item.title)}</h3>
+                                        <p className={`medium-text ${textStyle} m-0`}>{t(item.subtitle)}</p>
                                     </div>
                                 </div>
                             );
@@ -75,28 +69,29 @@ function HowItWorks() {
             </div>
 
             <h2 className="large-title grey-text text-center">
-                <span className="green-text">Key features </span> of the <br/>Loopable app
+                <span className="green-text">{t("How_It_Works_Title_3")}</span> {t("How_It_Works_Title_4")}
             </h2>
 
             <div className="row mx-0 my-5 text-center">
-                <div className="col">
+                <div className="col-12 col-sm mb-4 mb-sm-0">
                     <div className="bg-white rounded-4 px-3 pt-3">
-                        <h3 className="medium-bold-text grey-text">Intuitive search</h3>
-                        <p className="medium-text grey-text">Voluptate suscipit sed porro sunt sed dolor amet.</p>
+                        <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_1_Title")}</h3>
+                        <p className="medium-text grey-text">{t("How_It_Works_Feature_1_Subtitle")}</p>
                         <img src={serachImage} className="img-fluid"/>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm mb-4 mb-sm-0">
                     <div className="bg-white rounded-4 px-3 pb-3">
                         <img src={priceImage} className="img-fluid"/>
-                        <h3 className="medium-bold-text grey-text">Intuitive search</h3>
-                        <p className="medium-text grey-text">Voluptate suscipit sed porro sunt sed dolor amet.</p>
+                        <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_2_Title")}</h3>
+                        <p className="medium-text grey-text">{t("How_It_Works_Feature_2_Subtitle")}</p>
                     </div>
                 </div>
-                <div className="col">
-                    <div className="bg-white rounded-3 p-3">
-                        <h3 className="medium-bold-text grey-text">Intuitive search</h3>
-                        <p className="medium-text grey-text">Voluptate suscipit sed porro sunt sed dolor amet.</p>
+                <div className="col-12 col-sm">
+                    <div className="bg-white rounded-4 p-3">
+                        <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_3_Title")}</h3>
+                        <p className="medium-text grey-text">{t("How_It_Works_Feature_3_Subtitle")}</p>
+                        <img src={serachImage} className="img-fluid"/>
                     </div>
                 </div>
             </div>
