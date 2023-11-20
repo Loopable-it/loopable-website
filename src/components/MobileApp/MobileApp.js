@@ -23,7 +23,9 @@ function MobileApp(props) {
 
           <button
             className="green-button"
-          >
+            onClick={() =>
+              window.open("http://eepurl.com/iuaINI", "_blank", "noreferrer")
+            }>
             {t("Newsletter_Subscribe")}
           </button>
       </div>

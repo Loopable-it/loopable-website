@@ -60,7 +60,11 @@ function Footer(props) {
 
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
           <p className="medium-bold-text white-text">{t("Footer_Subscribe")}</p>
-          <button className="grey-button">
+          <button
+            className="grey-button"
+            onClick={() =>
+              window.open("http://eepurl.com/iuaINI", "_blank", "noreferrer")
+            }>
             {t("Newsletter_Subscribe")}
           </button>
         </div>
