@@ -63,5 +63,13 @@
   "Mobile_App_Section_Title": "Download the Loopable app",
   "Mobile_App_Title_1": "Download our",
   "Mobile_App_Title_2": "mobile app",
-  "Mobile_Not_Available": "The app is not available yet, subscribe to our newsletter to be notified when it will become available."
+  "Mobile_Not_Available": "The app is not available yet, subscribe to our newsletter to be notified when it will become available.",
+
+  "FAQ_Section_Title": "FAQ",
+  "FAQ_Title_1": "Any more",
+  "FAQ_Title_2": "questions",
+  "FAQ_Question_1": "Can I earn money from idle items?",
+  "FAQ_Answer_1": "Yes, you can turn your unused items into an additional source of income. By listing your items on Loopable, you can attract potential renters and earn money without the need to sell or permanently part with belongings.\nThis feature will be available later on.",
+  "FAQ_Question_2": "Is Loopable sostainable?",
+  "FAQ_Answer_2": "Certainly! The inception of Loopable took root during the SVST Hackathon in Verbania, with sustainability at the forefront of our mission. The concept revolves around the notion that opting to rent items rather than purchasing new ones has the potential to reduce mass production, paving the way for a more sustainable future"
 }

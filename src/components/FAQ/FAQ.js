@@ -3,23 +3,16 @@ import { useState } from "react";
 
 import "./FAQ.css";
 
-function FAQ() {
+function FAQ(props) {
+    const { t } = props;
     const questionsList = [
         {
-            question: "Test question?",
-            answer: "Test answer",
+            question: "FAQ_Question_1",
+            answer: "FAQ_Answer_1",
         },
         {
-            question: "Test question?",
-            answer: "Test answer",
-        },
-        {
-            question: "Test question?",
-            answer: "Test answer",
-        },
-        {
-            question: "Test question?",
-            answer: "Test answer",
+            question: "FAQ_Question_2",
+            answer: "FAQ_Answer_2",
         },
     ];
 
@@ -32,12 +25,12 @@ function FAQ() {
     return (
         <div className="FAQ">
             <p className="small-bold-text grey-text text-center p-0">
-                <span className="green-text">-</span> FAQ
+                <span className="green-text">-</span> {t("FAQ_Section_Title")}
             </p>
 
             <h2 className="large-title grey-text text-center">
-                Any more
-                <span className="green-text"> questions</span>?
+                {t("FAQ_Title_1")}
+                <span className="green-text"> {t("FAQ_Title_2")}</span>?
             </h2>
 
             {
@@ -47,7 +40,7 @@ function FAQ() {
                             <div
                                 className="bg-white grey-text rounded-4 p-3 d-flex justify-content-between"
                                 onClick={() => toggleQuestion(index)}>
-                                <p className="medium-bold-text m-0">{item.question}</p>
+                                <p className="medium-bold-text m-0">{t(item.question)}</p>
                 
                                 <p className="medium-bold-text m-0">
                                     <i className={`fa-solid fa-${selectedQuestion === index ? 'minus' : 'plus'}`}></i>
@@ -56,7 +49,7 @@ function FAQ() {
                             {
                                 selectedQuestion === index && (
                                     <div className="bg-green rounded-4 p-3 mt-2 mx-3">
-                                        <p className="medium-bold-text white-text m-0">{item.answer}</p>
+                                        <p className="medium-text white-text m-0">{t(item.answer)}</p>
                                     </div>
                                 )
                             }
