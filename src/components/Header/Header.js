@@ -29,7 +29,7 @@ function Header(props) {
           className="green-button d-none d-sm-inline me-5"
           onClick={() => _scrollDownToTarget("MobileApp-section")}
         >
-          {t("Shared_NotifyMe")}
+          Get the app
         </button>
       </div>
     </nav>
