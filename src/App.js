@@ -6,6 +6,7 @@ import Team from "./components/Team/Team";
 import MobileApp from "./components/MobileApp/MobileApp";
 import Footer from "./components/Footer/Footer";
 import Business from "./components/Business/Business";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Business></Business>
       <Team></Team>
       <MobileApp></MobileApp>
+      <FAQ></FAQ>
       <Footer></Footer>
     </>
   );
