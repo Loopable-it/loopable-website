@@ -8,12 +8,12 @@
 
 @media only screen and (max-width: 480px) {
   .MobileApp {
-    padding-top: 2rem;
-    padding-inline: 1rem;
+    padding-inline: 20px;
   }
 }
 @media only screen and (max-width: 960px) {
   .MobileApp {
-    padding-inline: 4rem;
+    padding-block: 30px;
+    padding-inline: 40px;
   }
 }
