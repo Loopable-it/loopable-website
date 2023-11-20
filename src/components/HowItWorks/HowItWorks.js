@@ -77,12 +77,12 @@ function HowItWorks(props) {
                     <div className="bg-white rounded-4 px-3 pt-3">
                         <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_1_Title")}</h3>
                         <p className="medium-text grey-text">{t("How_It_Works_Feature_1_Subtitle")}</p>
-                        <img src={serachImage} className="img-fluid"/>
+                        <img src={serachImage} alt="Ricerca oggetti loopable" className="img-fluid"/>
                     </div>
                 </div>
                 <div className="col-12 col-sm mb-4 mb-sm-0">
                     <div className="bg-white rounded-4 px-3 pb-3">
-                        <img src={priceImage} className="img-fluid"/>
+                        <img src={priceImage} alt="Prezzi loopable" className="img-fluid"/>
                         <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_2_Title")}</h3>
                         <p className="medium-text grey-text">{t("How_It_Works_Feature_2_Subtitle")}</p>
                     </div>
@@ -91,7 +91,7 @@ function HowItWorks(props) {
                     <div className="bg-white rounded-4 px-3 pt-3">
                         <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_3_Title")}</h3>
                         <p className="medium-text grey-text">{t("How_It_Works_Feature_3_Subtitle")}</p>
-                        <img src={serachImage} className="img-fluid"/>
+                        <img src={serachImage} alt="Gestione noleggi loopable" className="img-fluid"/>
                     </div>
                 </div>
             </div>

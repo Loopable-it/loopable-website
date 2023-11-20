@@ -26,17 +26,16 @@ function Team(props) {
   return (
     <div className="Team w-100 mb-4">
       <p className="small-bold-text grey-text text-center p-0">
-        <span className="green-text">-</span> {t("Team_OurTeam")}
+        <span className="green-text">-</span> {t("Team_Section_Title")}
       </p>
 
       <h2 className="large-title grey-text text-center">
-        Get to know the
-        <span className="green-text"> minds<br/>beihind </span>
-        Loopable
+        {t("Team_Title_1")}
+        <span className="green-text"> {t("Team_Title_2")}</span>
       </h2>
 
       <p className="medium-text grey-text text-center px-5 my-3">
-        {t("Team_OurTeam_Description")}
+        {t("Team_Description")}
       </p>
 
       <a
@@ -56,21 +55,21 @@ function Team(props) {
               className="col-12 col-xl-6 mb-3 mb-xl-0"
               key={name}
             >
-              <div className="row mx-0 mb-4" style={{borderLeft: "2px solid #18CE40"}}>
-                <div className="col-3">
+              <div className="row mx-0 mb-4 text-center text-sm-start external-line">
+                <div className="col-12 col-sm-3 mb-2 mb-sm-0">
                   <img src={image} alt={name} height={150} />
                 </div>
-                <div className="col-9 align-self-center">
+                <div className="col-12 col-sm-9 align-sm-self-center">
                 <a
                   style={{textDecorationColor: "#464646"}}
                   href={linkedin}
                   target="_blank"
                   rel="noreferrer">
-                    <h3 className="medium-bold-text grey-text m-0">
+                    <h3 className="medium-bold-text grey-text m-0 mb-2 mb-sm-0">
                       {name}
                     </h3>
                 </a>
-                    <p className="medium-text grey-text m-0 pe-5">
+                    <p className="medium-text grey-text m-0 pe-sm-5">
                       {t(description)}
                     </p>
                 </div>
