@@ -6,22 +6,19 @@ function Features(props) {
     const { t } = props;
     const featuresList = [
         {
-            key: 0,
             icon: "fa-solid fa-pen-nib",
-            title: "User experience focused",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Features_1_Title",
+            subtitle: "Features_1_Subtitle"
         },
         {
-            key: 1,
             icon: "fa-solid fa-bell",
-            title: "Immediate feedback",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Features_2_Title",
+            subtitle: "Features_2_Subtitle"
         },
         {
-            key: 2,
             icon: "fa-solid fa-star",
-            title: "Product reviews",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Features_3_Title",
+            subtitle: "Features_3_Subtitle"
         }
     ];
 
@@ -29,21 +26,21 @@ function Features(props) {
         <div className="Features w-100 row mx-0">
             <div className="mb-5">
                 <p className="small-bold-text white-text p-0">
-                    <span className="green-text">-</span> Benefits of the Loopable app
+                    <span className="green-text">-</span> {t("Features_Section_Title")}
                 </p>
 
                 <h2 className="large-title white-text">
-                    Why Loopable<br/>
-                    <span className="green-text">is revolutionary</span>
+                    {t("Features_Title_1")}<br/>
+                    <span className="green-text">{t("Features_Title_2")}</span>
                 </h2>
             </div>
             {
-                featuresList.map((item) => {
+                featuresList.map((item, index) => {
                     return (
-                        <div className="col-12 col-md-4" key={item.key}>
+                        <div className="col-12 col-md-4" key={index}>
                             <i className={`${item.icon} green-text p-4 bg-light bg-opacity-75 rounded-4`} style={{fontSize: "25px"}}></i>
-                            <h3 className="medium-bold-text white-text my-3">{item.title}</h3>
-                            <p className="medium-text white-text">{item.subtitle}</p>
+                            <h3 className="medium-bold-text white-text my-3">{t(item.title)}</h3>
+                            <p className="medium-text white-text">{t(item.subtitle)}</p>
                         </div>
                     );
                 })

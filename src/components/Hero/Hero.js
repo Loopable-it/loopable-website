@@ -27,7 +27,7 @@ function Hero(props) {
                 </div>
 
                 <div className="col-12 col-md-6 p-0 align-self-end">
-                    <img src={mockup} className="img-fluid m-0"/>
+                    <img src={mockup} alt="Loopable iOS app" className="img-fluid m-0"/>
                 </div>
             </div>
         </div>

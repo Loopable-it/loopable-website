@@ -9,7 +9,6 @@
     .Features {
         padding-block: 2rem;
         padding-inline: 10px;
-        min-height: 450px;
     }
 } 
 
@@ -17,6 +16,5 @@
     .Features {
         padding-block: 2rem;
         padding-inline: 40px;
-        min-height: 450px; 
     }
 }
