@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
+import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Team from "./components/Team/Team";
 import MobileApp from "./components/MobileApp/MobileApp";
 import Footer from "./components/Footer/Footer";
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Features></Features>
+      <HowItWorks></HowItWorks>
       <Team></Team>
       <Business></Business>
       <MobileApp></MobileApp>

@@ -6,19 +6,19 @@ function Features(props) {
     const { t } = props;
     const featuresList = [
         {
-            key: "",
+            key: 0,
             icon: "fa-solid fa-pen-nib",
             title: "User experience focused",
             subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         },
         {
-            key: "",
+            key: 1,
             icon: "fa-solid fa-bell",
             title: "Immediate feedback",
             subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         },
         {
-            key: "",
+            key: 2,
             icon: "fa-solid fa-star",
             title: "Product reviews",
             subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
