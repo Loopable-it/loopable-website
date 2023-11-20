@@ -1,66 +1,19 @@
 @import "../../App.css";
 
 .Team {
-    padding-inline: 10rem;
-}
-
-.Team-card {
-    padding: 3rem;
-    background: rgba(24, 206, 64, 0.25);
-    border-radius: 30px;
-}
-
-.Team-card-content img {
-    max-width: 12rem;
-}
-
-.Team-member h6 {
-    padding-inline: 6rem;
-}
-
-.Team-member p {
-    font-size: 2vmin;
-}
-
-.Linkedin-link {
-    color: #000;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.fa-linkedin {
-    font-size: calc(5px + 2vmin);
+    padding-inline: 100px;
+    padding-block: 55px;
 }
 
 @media only screen and (max-width: 960px) and (min-width: 480px){
     .Team {
-        padding-inline: 4rem;
-    }
-
-    .Team-member h6 {
-        padding-inline: 3rem;
+        padding-inline: 40px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .Team {
-        padding-inline: 1rem;
-    }
-
-    .Team-card {
-        padding: 2rem;
-    }
-
-    .Team-member h6 {
-        padding-inline: 1rem;
-    }
-
-    .Team-card-content img {
-        max-width: 10rem;
-    }
-
-    .Team-member p {
-        font-size: 14px;
+        padding-inline: 10px;
     }
 }
 

@@ -1,7 +1,7 @@
 import { withTranslation } from "react-i18next";
 
-import MaggyPic from "../../assets/photo_maggy.png";
-import MattiaPic from "../../assets/photo_mattia.png";
+import MaggyPic from "../../assets/maggy-protasio-photo.png";
+import MattiaPic from "../../assets/mattia-cintura-photo.png";
 import "./Team.css";
 
 function Team(props) {
@@ -25,49 +25,60 @@ function Team(props) {
 
   return (
     <div className="Team w-100 mb-4">
-      <div className="Team-card">
-        <div className="Team-card-content row mx-0 text-center d-flex align-items-center px-0 px-xl-5">
-          <div className="col-12 pb-5">
-            <h2>{t("Team_OurTeam")}</h2>
-            <p>{t("Team_OurTeam_Description")}</p>
-            <a
-              className="Linkedin-link"
-              href="https://www.linkedin.com/company/loopable-it"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>
-                <i className="fa-brands fa-linkedin me-2"></i>
-                {t("Team_FollowLinkedIn")}
-              </span>
-            </a>
-          </div>
-          {teamList.map(({ image, name, role, description, linkedin }) => {
-            return (
-              <div
-                className="Team-member col-12 col-xl-6 mb-3 mb-xl-0"
-                key={name}
-              >
-                <img src={image} alt={name} className="mb-2" />
-                <h3 className="mb-2">{name}</h3>
-                <p className="text-secondary mb-1">{role}</p>
+      <p className="small-bold-text grey-text text-center p-0">
+        <span className="green-text">-</span> {t("Team_OurTeam")}
+      </p>
 
-                <h6>{t(description)}</h6>
+      <h2 className="large-title grey-text text-center">
+        Get to know the
+        <span className="green-text"> minds<br/>beihind </span>
+        Loopable
+      </h2>
+
+      <p className="medium-text grey-text text-center px-5 my-3">
+        {t("Team_OurTeam_Description")}
+      </p>
+
+      <a
+        style={{textDecorationColor: "#464646"}}
+        href="https://www.linkedin.com/company/loopable-it"
+        target="_blank"
+        rel="noreferrer">
+        <p className="medium-bold-text grey-text text-center">
+          {t("Team_FollowLinkedIn")}
+        </p>
+      </a>
+
+      <div className="row mx-0 mt-5">
+        {teamList.map(({ image, name, role, description, linkedin }) => {
+          return (
+            <div
+              className="col-12 col-xl-6 mb-3 mb-xl-0"
+              key={name}
+            >
+              <div className="row mx-0 mb-4" style={{borderLeft: "2px solid #18CE40"}}>
+                <div className="col-3">
+                  <img src={image} alt={name} height={150} />
+                </div>
+                <div className="col-9 align-self-center">
                 <a
-                  className="Linkedin-link"
+                  style={{textDecorationColor: "#464646"}}
                   href={linkedin}
                   target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>
-                    <i className="fa-brands fa-linkedin me-2"></i>
-                    LinkedIn
-                  </span>
+                  rel="noreferrer">
+                    <h3 className="medium-bold-text grey-text m-0">
+                      {name}
+                    </h3>
                 </a>
+                    <p className="medium-text grey-text m-0 pe-5">
+                      {t(description)}
+                    </p>
+                </div>
               </div>
-            );
-          })}
-        </div>
+
+            </div>
+          );
+        })}
       </div>
     </div>
   );
