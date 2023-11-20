@@ -1,62 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
 body {
   margin: 0;
+  background-color: #F8F8F8;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(50px + 2vmin);
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(30px + 2vmin);
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(10px + 2vmin);
-}
-
-h4 {
+.small-bold-text {
+  color: #464646;
+  font-size: 15px;
   font-family: 'Manrope', sans-serif;
-  font-size: calc(10px + 2vmin);
-  font-weight: 400;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.green-button {
+  height: 50px;
+  border-radius: 25px;
+  padding-inline: 25px;
+  border: 0;
   color: #fff;
-}
-
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(3px + 2vmin);
-}
-
-h6 {
+  font-size: 15px;
   font-family: 'Manrope', sans-serif;
-  font-size: 1rem;
-}
-
-p {
-  font-family: 'Manrope', sans-serif;
-  font-size: calc(5px + 2vmin);
-}
-
-a {
-  font-family: 'Manrope', sans-serif;
-  font-size: calc(5px + 2vmin);
-}
-
-i {
-  font-size: calc(40px + 2vmin);
-}
-
-button {
-  font-family: 'Manrope', sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 700;
+  background-color: #18ce40;
 }
 
 img {
@@ -65,23 +34,5 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 2.3rem;
-  }
 
-  h5 {
-    font-size: 1.2rem;
-  }
-
-  h6 {
-    font-size: 0.8rem;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
-  a {
-    font-size: 1rem;
-  }
 }
