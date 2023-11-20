@@ -19,7 +19,7 @@ function Features(props) {
         },
         {
             key: "",
-            icon: "fa-solid fa-user-check",
+            icon: "fa-solid fa-star",
             title: "Product reviews",
             subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         }
@@ -41,7 +41,7 @@ function Features(props) {
                 featuresList.map((item) => {
                     return (
                         <div className="col-12 col-md-4" key={item.key}>
-                            <i className={`${item.icon} green-text p-4 bg-light bg-opacity-75 rounded-4`}></i>
+                            <i className={`${item.icon} green-text p-4 bg-light bg-opacity-75 rounded-4`} style={{fontSize: "25px"}}></i>
                             <h3 className="medium-bold-text white-text my-3">{item.title}</h3>
                             <p className="medium-text white-text">{item.subtitle}</p>
                         </div>
