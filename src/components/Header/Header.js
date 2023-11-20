@@ -16,12 +16,12 @@ function Header(props) {
       </a>
 
       <div className="d-none d-sm-flex justify-content-center align-items-center">
-        <p className="small-bold-text mx-3 mb-0">Home</p>
-        <p className="small-bold-text mx-3 mb-0">Benefits</p>
-        <p className="small-bold-text mx-3 mb-0">How it works</p>
-        <p className="small-bold-text mx-3 mb-0">Business</p>
-        <p className="small-bold-text mx-3 mb-0">About us</p>
-        <p className="small-bold-text mx-3 mb-0">FAQ</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">Home</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">Benefits</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">How it works</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">Business</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">About us</p>
+        <p className="small-bold-text grey-text mx-3 mb-0">FAQ</p>
       </div>
 
       <div className="d-flex justify-content-evenly">

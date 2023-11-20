@@ -10,7 +10,6 @@ body {
 
 /*Text*/
 .small-bold-text {
-  color: #464646;
   font-size: 15px;
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
@@ -18,10 +17,16 @@ body {
 }
 
 .medium-text {
-  color: #464646;
   font-size: 20px;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
+  word-wrap: break-word;
+}
+
+.medium-bold-text {
+  font-size: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
   word-wrap: break-word;
 }
 
@@ -29,10 +34,25 @@ body {
   color: #18ce40;
 }
 
+.grey-text {
+  color: #464646;
+}
+
+.white-text {
+  color: #fff;
+}
+
 /*Title*/
 .extra-large-title {
   color: #464646;
   font-size: 60px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.large-title {
+  font-size: 40px;
   font-family: 'Manrope', sans-serif;
   font-weight: 900;
   word-wrap: break-word;

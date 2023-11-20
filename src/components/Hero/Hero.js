@@ -21,7 +21,7 @@ function Hero(props) {
                         <span className="green-text">made easy</span>
                     </h1>
 
-                    <p className="medium-text p-0">
+                    <p className="medium-text grey-text p-0">
                         Loopable revolutionizes the concept of renting by providing an innovative platform that allows users to find the items they need, whenever and wherever they want.
                     </p>
                 </div>
