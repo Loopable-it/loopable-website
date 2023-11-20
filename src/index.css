@@ -79,6 +79,18 @@ body {
   background-color: #18ce40;
 }
 
+.grey-button {
+  height: 50px;
+  border-radius: 25px;
+  padding-inline: 25px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  background-color: #464646;
+}
+
 img {
   -webkit-user-drag: none;
   user-select: none;

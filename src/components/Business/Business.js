@@ -1,44 +1,59 @@
 import { withTranslation } from "react-i18next";
 
-import logoBusiness from "../../assets/logo-business.svg";
 import "./Business.css";
 
 function Business(props) {
     const { t } = props;
-    const cardContent = [
+    const featuresList = [
         {
+            key: 0,
             icon: "fa-solid fa-rectangle-ad",
-            key: "Promote"
+            title: "Promote your services",
+            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         },
         {
+            key: 1,
             icon: "fa-solid fa-list-check",
-            key: "Manage"
+            title: "Manage",
+            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         },
         {
-            icon: "fa-solid fa-chart-line",
-            key: "Rent"
+            key: 2,
+            icon: "fa-solid fa-arrow-up-right-dots",
+            title: "Increase revenues",
+            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
         }
     ];
 
     return (
-        <div className="Business w-100 mb-0 text-center">
-            <img src={logoBusiness} alt="Logo Loopable business" className="Business-logo"/>
+        <div className="Business w-100 row mx-0">
+            <div className="mb-5 d-flex justify-content-between">
+                <div className="m-0">
+                    <p className="small-bold-text white-text p-0">
+                        <span className="grey-text">-</span> Benefits of Loopable for your business
+                    </p>
 
-            <p className="Business-description my-4 mx-auto">{t("Business_Description")}</p>
+                    <h2 className="large-title white-text">
+                        How can Loopable<br/>
+                        <span className="grey-text">help your business</span>
+                    </h2>
+                </div>
 
-            <div className="row mx-0 mt-5 d-flex justify-content-around">
-                {
-                    cardContent.map((item) => {
-                        return (
-                            <div className="Business-card p-4 mb-3 mb-md-0 col-12 col-md-4" key={item.key}>
-                                <i className={item.icon}></i>
-                                <h5 className="mt-3">{t(`Business_${item.key}`)}</h5>
-                                <p className="mx-lg-5">{t(`Business_${item.key}_Description`)}</p>
-                            </div>
-                        );
-                    })
-                }
+                <button className="grey-button">
+                    Enroll your business
+                </button>
             </div>
+            {
+                featuresList.map((item) => {
+                    return (
+                        <div className="col-12 col-md-4" key={item.key}>
+                            <i className={`${item.icon} grey-text p-4 bg-light bg-opacity-75 rounded-4`} style={{fontSize: "25px"}}></i>
+                            <h3 className="medium-bold-text white-text my-3">{item.title}</h3>
+                            <p className="medium-text white-text">{item.subtitle}</p>
+                        </div>
+                    );
+                })
+            }
         </div>
     );
 }

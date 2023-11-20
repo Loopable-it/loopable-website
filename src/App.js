@@ -14,9 +14,8 @@ function App() {
       <Hero></Hero>
       <Features></Features>
       <HowItWorks></HowItWorks>
-      <Team></Team>
       <Business></Business>
-      <MobileApp></MobileApp>
+
       <Footer></Footer>
     </>
   );
