@@ -6,50 +6,47 @@ function Business(props) {
     const { t } = props;
     const featuresList = [
         {
-            key: 0,
             icon: "fa-solid fa-rectangle-ad",
-            title: "Promote your services",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Business_Features_1_Title",
+            subtitle: "Business_Features_1_Subtitle"
         },
         {
-            key: 1,
             icon: "fa-solid fa-list-check",
-            title: "Manage",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Business_Features_2_Title",
+            subtitle: "Business_Features_2_Subtitle"
         },
         {
-            key: 2,
             icon: "fa-solid fa-arrow-up-right-dots",
-            title: "Increase revenues",
-            subtitle: "Voluptate suscipit sed porro sunt sed dolor amet. Saepe aut repellat et velit."
+            title: "Business_Features_3_Title",
+            subtitle: "Business_Features_3_Subtitle"
         }
     ];
 
     return (
         <div className="Business w-100 row mx-0">
-            <div className="mb-5 d-flex justify-content-between">
+            <div className="mb-5 d-flex justify-content-start justify-sm-content-around">
                 <div className="m-0">
                     <p className="small-bold-text white-text p-0">
-                        <span className="grey-text">-</span> Benefits of Loopable for your business
+                        <span className="grey-text">-</span> {t("Business_Section_Title")}
                     </p>
 
                     <h2 className="large-title white-text">
-                        How can Loopable<br/>
-                        <span className="grey-text">help your business</span>
+                        {t("Business_Title_1")}<br/>
+                        <span className="grey-text">{t("Business_Title_2")}</span>
                     </h2>
                 </div>
 
-                <button className="grey-button">
-                    Enroll your business
+                <button className="grey-button d-none" disabled="true">
+                    {t("Business_Enroll")}
                 </button>
             </div>
             {
-                featuresList.map((item) => {
+                featuresList.map((item, index) => {
                     return (
-                        <div className="col-12 col-md-4" key={item.key}>
+                        <div className="col-12 col-md-4" key={index}>
                             <i className={`${item.icon} grey-text p-4 bg-light bg-opacity-75 rounded-4`} style={{fontSize: "25px"}}></i>
-                            <h3 className="medium-bold-text white-text my-3">{item.title}</h3>
-                            <p className="medium-text white-text">{item.subtitle}</p>
+                            <h3 className="medium-bold-text white-text my-3">{t(item.title)}</h3>
+                            <p className="medium-text white-text">{t(item.subtitle)}</p>
                         </div>
                     );
                 })

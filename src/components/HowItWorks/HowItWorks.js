@@ -88,7 +88,7 @@ function HowItWorks(props) {
                     </div>
                 </div>
                 <div className="col-12 col-sm">
-                    <div className="bg-white rounded-4 p-3">
+                    <div className="bg-white rounded-4 px-3 pt-3">
                         <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_3_Title")}</h3>
                         <p className="medium-text grey-text">{t("How_It_Works_Feature_3_Subtitle")}</p>
                         <img src={serachImage} className="img-fluid"/>

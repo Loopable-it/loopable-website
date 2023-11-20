@@ -41,28 +41,20 @@
   "How_It_Works_Feature_3_Title": "Manage your rents",
   "How_It_Works_Feature_3_Subtitle": "Easily manage your rental history with a quick glance, providing all the details you need at your fingertips..",
 
+  "Business_Section_Title": "Benefits of Loopable for your business",
+  "Business_Title_1": "How can Loopable",
+  "Business_Title_2": "help your business",
+  "Business_Enroll": "Enroll your business",
+  "Business_Features_1_Title": "Promote your services",
+  "Business_Features_1_Subtitle": "Promote your products to a broad audience..",
+  "Business_Features_2_Title": "Manage rents",
+  "Business_Features_2_Subtitle": "Manage the rentals of your products easily and quickly through the platform we will provide you.",
+  "Business_Features_3_Title": "Increase revenues",
+  "Business_Features_3_Subtitle": "Maximize your profits effortlessly with Loopable",
+
   "Team_OurTeam": "Our team",
   "Team_OurTeam_Description": "Driven by our success at SVST Hackathon Verbania, our team is determined to redefine the untapped potential in Italy's rental market. Meet the passionate minds behind Loopable's transformative vision.",
   "Team_FollowLinkedIn": "Follow us on LinkedIn",
   "Team_Member_Maggy": "Web developer and Computer Engineering Student. Driven to create great products through accurate execution.",
-  "Team_Member_Mattia": "Software Engineer with 3+ years of experience developing for the web and mobile. Idea seeker and enthusiastic about sharing them.",
-
-  "Business_Description": "Maximize your business' potential and reach new heights with our Loopable for business plan.",
-  "Business_Promote": "Promote",
-  "Business_Promote_Description": "Advertise your product listings",
-  "Business_Manage": "Manage",
-  "Business_Manage_Description": "Easily facilitate current and future rentals",
-  "Business_Rent": "Increase",
-  "Business_Rent_Description": "Elevate your audience and sales",
-
-  "MobileApp_Title": "Our app",
-  "MobileApp_Description": "The app is not availbale yet, subscribe to our newsletter to be notified when it will become availbale",
-  "MobileApp_NewsletterSubscribe": "Subscribe",
-
-  "Footer_Description": "Renting marketplace for earning and contributing in the circular economy.",
-  "Footer_FollowUs": "Follow us on",
-  "Footer_MobileAppApp": "MobileApp the app",
-  "Footer_AppiOS": "Loopable on iOS",
-  "Footer_AppAndroid": "Loopable on Android",
-  "Footer_Copyright": "© 2023 Loopable. All rights reserved"
+  "Team_Member_Mattia": "Software Engineer with 3+ years of experience developing for the web and mobile. Idea seeker and enthusiastic about sharing them."
 }
