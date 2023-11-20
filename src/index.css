@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
 
 body {
   margin: 0;
@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Text*/
 .small-bold-text {
   color: #464646;
   font-size: 15px;
@@ -16,6 +17,36 @@ body {
   word-wrap: break-word;
 }
 
+.medium-text {
+  color: #464646;
+  font-size: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.green-text {
+  color: #18ce40;
+}
+
+/*Title*/
+.extra-large-title {
+  color: #464646;
+  font-size: 60px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.small-title {
+  color: #464646;
+  font-size: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/*Button*/
 .green-button {
   height: 50px;
   border-radius: 25px;

@@ -26,7 +26,7 @@ function Header(props) {
 
       <div className="d-flex justify-content-evenly">
         <button
-          className="green-button d-none d-sm-inline me-5"
+          className="green-button d-none d-sm-inline"
           onClick={() => _scrollDownToTarget("MobileApp-section")}
         >
           Get the app

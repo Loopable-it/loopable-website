@@ -1,41 +1,35 @@
 import { withTranslation } from "react-i18next";
-import { scrollDownToTarget } from "../../utilities/functionalities";
 
-import singleMockup from "../../assets/hero-single-mockup.png";
-import doubleMockup from "../../assets/hero-double-mockup.png";
+import mockup from "../../assets/loopable-ios-app.webp";
+
 import "./Hero.css";
 
 function Hero(props) {
     const { t } = props;
 
-    const _scrollDownToTarget = scrollDownToTarget;
-
     return (
         <div className="Hero w-100">
-            <div className="Hero-container row mx-0 d-flex align-items-center">
-                <div className="col-12 col-md-6 px-0">
-                    <h1 className="mb-5 mt-5 mt-md-0">
-                        {t("Hero_Title")}
+            <div className="Hero-container row mx-0">
+                <div className="col-12 col-md-6 px-0 align-self-center">
+                    <span className="small-title bg-white rounded-3 py-2 px-3">
+                        <i class="fa-solid fa-star me-2" style={{color: '#18ce40'}}></i>
+                        The best way to rent items
+                    </span>
+
+                    <h1 className="extra-large-title my-4">
+                        Renting items <br/>
+                        <span className="green-text">made easy</span>
                     </h1>
-                    <p className="mb-5">
-                        {t("Hero_Description")}
+
+                    <p className="medium-text p-0">
+                        Loopable revolutionizes the concept of renting by providing an innovative platform that allows users to find the items they need, whenever and wherever they want.
                     </p>
-                    <button className="Secondary-button" onClick={() => _scrollDownToTarget("features-section")}>
-                        {t("Shared_LearnMore")}
-                    </button>
                 </div>
 
-                <div className="col-12 col-md-6 px-0 d-flex align-items-start mb-5">
-                    <img src={singleMockup}
-                        alt="An iPhone showing the homepage of the Loopable app"
-                        className="Hero-single-mockup d-none d-md-block"/>
-                    <img src={doubleMockup}
-                        alt="Two iPhones showing the homepage and the search result of the Loopable app"
-                        className="Hero-double-mockup d-block d-md-none"/>
-                </div>
-
-                <div className="d-block d-md-none col-12 px-0 d-flex align-items-start justify-content-center">
-                    <i className="fa-solid fa-chevron-down" style={{fontSize: "2rem"}}></i>
+                <div className="col-12 col-md-6 p-0 align-self-end">
+                    <div>
+                    <img src={mockup} className="img-fluid m-0"/>
+                    </div>
                 </div>
             </div>
         </div>
