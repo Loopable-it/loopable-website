@@ -1,4 +1,12 @@
 {
+  "Header_Menu_Home": "Home",
+  "Header_Menu_Benefits": "Benefits",
+  "Header_Menu_How_it_works": "How it works",
+  "Header_Menu_Business": "Business",
+  "Header_Menu_About_us": "About us",
+  "Header_Menu_FAQ": "FAQ",
+  "Header_Get_app": "Get the app",
+
   "Shared_LearnMore": "Learn more",
   "Shared_NotifyMe": "Notify me",
   "Shared_ComingSoon": "(coming soon)",

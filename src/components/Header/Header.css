@@ -12,11 +12,13 @@
 @media only screen and (max-width: 768px) {
   .Header {
     padding-inline: 20px;
+    height: 50px;
   }
 }
 
 @media only screen and (max-width: 960px) and (min-width: 768px) {
   .Header {
     padding-inline: 40px;
+    height: 80px;
   }
 }
