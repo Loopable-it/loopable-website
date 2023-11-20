@@ -1,7 +1,7 @@
 import { withTranslation } from "react-i18next";
 import { scrollDownToTarget } from "../../utilities/functionalities";
 
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/loopable-logo.svg";
 import "./Header.css";
 
 function Header(props) {

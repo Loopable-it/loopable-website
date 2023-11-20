@@ -1,29 +1,13 @@
 @import "../../App.css";
 
 .Footer {
-    padding-block: 5rem;
-    background-color: #DEF8E4;
-    padding-inline: 10rem;
+    padding-block: 50px;
+    background-color: #18CE40;
+    padding-inline: 100px;
 }
 
 .Footer-logo {
-    height: 2rem;
-    pointer-events: none;
-}
-
-.Footer-link {
-    color: #000;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.Footer-link i {
-    font-size: 15px;
-}
-
-.Copyright {
-    padding: 0.5rem;
-    padding-inline: 10rem;
+    height: 40px;
 }
 
 ul {
@@ -37,18 +21,11 @@ ul {
         padding-block: 2rem;
         padding-inline: 1rem;
     }
-
-    .Copyright {
-        padding-inline: 1rem;
-    }
 }
 
 @media only screen and (max-width: 960px){
     .Footer {
         padding-inline: 4rem;
         padding-block: 3rem;
-    }
-    .Copyright {
-        padding-inline: 4rem;
     }
 }
