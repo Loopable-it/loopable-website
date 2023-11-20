@@ -24,7 +24,7 @@ function MobileApp(props) {
           <button
             className="green-button"
           >
-            Subscribe
+            {t("Newsletter_Subscribe")}
           </button>
       </div>
 
@@ -34,10 +34,10 @@ function MobileApp(props) {
           <p className="medium-bold-text white-text mt-5">Loopable on iOS</p>
           <p className="medium-text white-text">Available before summer 2024</p>
           <button
-            className="green-button d-none d-sm-inline"
-            disabled="true"
+            className="green-button"
+            disabled={true}
           >
-            Download
+            {t("Mobile_App_Download")}
           </button>
         </div>
       </div>
@@ -47,10 +47,10 @@ function MobileApp(props) {
           <p className="medium-bold-text white-text mt-5">Loopable on Android</p>
           <p className="medium-text white-text">Availbale by the end of 2024</p>
           <button
-            className="green-button d-none d-sm-inline"
-            disabled="true"
+            className="green-button"
+            disabled={true}
           >
-            Download
+            {t("Mobile_App_Download")}
           </button>
         </div>
       </div>

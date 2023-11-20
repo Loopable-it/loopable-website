@@ -7,12 +7,12 @@ function Footer(props) {
   const { t } = props;
 
   const routesList = [
-    "Home",
-    "Benefits",
-    "How it works",
-    "Business",
-    "About us",
-    "FAQ",
+    "Header_Menu_Home",
+    "Header_Menu_Benefits",
+    "Header_Menu_How_it_works",
+    "Header_Menu_Business",
+    "Header_Menu_About_us",
+    "Header_Menu_FAQ",
   ];
 
   const contactList = [
@@ -26,19 +26,19 @@ function Footer(props) {
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
           <img src={logo} alt="Logo Loopable" className="Footer-logo mb-2" />
           <p className="small-text white-text">
-            Loopable revolutionizes the concept of renting by providing an innovative platform that allows users to find the items they need, whenever and wherever they want.
+            {t("Hero_Description")}
           </p>
         </div>
 
         <div className="col-auto d-none d-md-block"></div>
 
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
-          <p className="medium-bold-text white-text">Company</p>
+          <p className="medium-bold-text white-text m-0 mb-sm-2">{t("Footer_Company")}</p>
           <ul>
             {routesList.map((item, index) => {
               return (
                 <li key={index}>
-                  <p className="small-text white-text m-0">{item}</p>
+                  <p className="small-text white-text m-0">{t(item)}</p>
                 </li>
               );
             })}
@@ -46,7 +46,7 @@ function Footer(props) {
         </div>
 
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
-          <p className="medium-bold-text white-text">Company</p>
+          <p className="medium-bold-text white-text m-0 mb-sm-2">{t("Footer_Contacts")}</p>
           <ul>
             {contactList.map((item, index) => {
               return (
@@ -59,15 +59,15 @@ function Footer(props) {
         </div>
 
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
-          <p className="medium-bold-text white-text">Subscribe to our newsletter</p>
+          <p className="medium-bold-text white-text">{t("Footer_Subscribe")}</p>
           <button className="grey-button">
-            Subscribe
+            {t("Newsletter_Subscribe")}
           </button>
         </div>
       </div>
 
       <div className="row mx-5 mt-5" style={{borderTop: "2px solid #FFF"}}>
-          <p className="small-text white-text mt-3">© 2023 Loopable. All rights reserved</p>
+          <p className="small-text white-text mt-3">{t("Footer_Note")}</p>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 .Footer {
-    padding-block: 50px;
+    padding-block: 55px;
     background-color: #18CE40;
     padding-inline: 100px;
 }
@@ -16,16 +16,18 @@ ul {
     margin: 0;
 }
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 768px) {
     .Footer {
-        padding-block: 2rem;
-        padding-inline: 1rem;
+        padding-block: 40px;
+        padding-inline: 20px;
+    }
+} 
+
+@media only screen and (max-width: 960px) and (min-width: 768px){
+    .Footer {
+        padding-block: 30px;
+        padding-inline: 40px;
     }
 }
 
-@media only screen and (max-width: 960px){
-    .Footer {
-        padding-inline: 4rem;
-        padding-block: 3rem;
-    }
-}

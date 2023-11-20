@@ -36,7 +36,7 @@ function Business(props) {
                     </h2>
                 </div>
 
-                <button className="grey-button d-none" disabled="true">
+                <button className="grey-button d-none" disabled={true}>
                     {t("Business_Enroll")}
                 </button>
             </div>

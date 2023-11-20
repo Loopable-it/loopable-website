@@ -63,6 +63,8 @@
   "Mobile_App_Section_Title": "Scarica l'app di Loopable",
   "Mobile_App_Title_1": "Scarica la nostra",
   "Mobile_App_Title_2": "app mobile",
+  "Newsletter_Subscribe": "Iscriviti",
+  "Mobile_App_Download": "Scarica",
   "Mobile_Not_Available": "L'app non è ancora disponibile. Iscriviti alla nostra newsletter per essere informato quando sarà disponibile.",
 
   "FAQ_Section_Title": "FAQ",
@@ -71,5 +73,10 @@
   "FAQ_Question_1": "Posso guadagnare prestando gli oggetti che non uso?",
   "FAQ_Answer_1": "Si, puoi trasformare i tuoi oggetti inutilizzati in un'ulteriore fonte di reddito. Inserendo i tuoi oggetti su Loopable, potrai attirare potenziali affittuari e guadagnare senza dover vendere o separarti definitivamente dagli oggetti.\nQuesta funzione sarà disponibile più avanti.",
   "FAQ_Question_2": "Loopable è sostenibile?",
-  "FAQ_Answer_2": "Certo! L'intera idea di Loopable è nata durante l'Hackathon SVST a Verbania, e la sostenibilità è stata uno dei nostri principali punti focali. L'idea alla base è che noleggiare oggetti invece di comprarne di nuovi potrebbe ridurre la produzione di massa e contribuire a un futuro più sostenibile."
+  "FAQ_Answer_2": "Certo! L'intera idea di Loopable è nata durante l'Hackathon SVST a Verbania, e la sostenibilità è stata uno dei nostri principali punti focali. L'idea alla base è che noleggiare oggetti invece di comprarne di nuovi potrebbe ridurre la produzione di massa e contribuire a un futuro più sostenibile.",
+
+  "Footer_Company": "Azienda",
+  "Footer_Contacts": "Contatti",
+  "Footer_Subscribe": "Iscriviti alla newsletter",
+  "Footer_Note": "© 2023 Loopable. Tutti i diritti riservati"
 }
