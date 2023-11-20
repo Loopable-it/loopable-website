@@ -112,5 +112,21 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  .medium-text, .medium-bold-text, .small-title {
+    font-size: 15px;
+  }
 
+  .extra-large-title {
+    font-size: 50px;
+  }
+
+  .large-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+  .medium-text, .medium-bold-text, .small-title {
+    font-size: 18px;
+  }
 }
