@@ -1,53 +1,60 @@
 import { withTranslation } from "react-i18next";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-
-import search from "../../assets/search.webp";
-import product from "../../assets/product.webp";
-import result from "../../assets/result.webp";
-
 import "./MobileApp.css";
 
 function MobileApp(props) {
   const { t } = props;
 
   return (
-    <>
-      <div className="MobileApp w-100 mb-0 text-center" id="MobileApp-section">
-        <h4 className="MobileApp-title mb-3">{t("MobileApp_Title")}</h4>
+    <div className="Features w-100 row mx-0">
+      <div className="col mb-5">
+          <p className="small-bold-text white-text p-0">
+              <span className="green-text">-</span> Download the Loopable app
+          </p>
 
-        <p>{t("MobileApp_Description")}</p>
+          <h2 className="large-title white-text">
+            Download our<br/>
+              <span className="green-text">mobile app</span>
+          </h2>
 
-        <button
-          className="Primary-button mb-5"
-          onClick={() =>
-            window.open("http://eepurl.com/iuaINI", "_blank", "noreferrer")
-          }
-        >
-          {t("MobileApp_NewsletterSubscribe")}
-        </button>
+          <p className="medium-text white-text pe-5">
+            The app is not availbale yet, subscribe to our newsletter to be notified when it will become availbale.
+          </p>
+
+          <button
+            className="green-button d-none d-sm-inline"
+          >
+            Subscribe
+          </button>
       </div>
 
-      <div className="bg-green-loop w-100">
-        <div className="text-center" style={{ height: "700px" }}>
-          <Parallax
-            pages={3}
-            className="w-100 mb-0 text-center parallax-container"
-            style={{ height: "700px" }}
+      <div className="col mb-5">
+        <div className="bg-white bg-opacity-50 rounded-4 p-4">
+          <i className="fa-brands fa-apple mb-5" style={{fontSize: "30px"}}></i>
+          <p className="medium-bold-text white-text mt-5">Loopable on iOS</p>
+          <p className="medium-text white-text">Available before summer 2024</p>
+          <button
+            className="green-button d-none d-sm-inline"
+            disabled="true"
           >
-            <ParallaxLayer offset={0}>
-              <img src={search} alt="Logo Loopable" height={700} />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1}>
-              <img src={result} alt="Logo Loopable" height={700} />
-            </ParallaxLayer>
-            <ParallaxLayer offset={2}>
-              <img src={product} alt="Logo Loopable" height={700} />
-            </ParallaxLayer>
-          </Parallax>
+            Download
+          </button>
         </div>
       </div>
-    </>
+      <div className="col mb-5">
+        <div className="bg-white bg-opacity-50 rounded-4 p-4">
+          <i className="fa-brands fa-android mb-5" style={{fontSize: "30px"}}></i>
+          <p className="medium-bold-text white-text mt-5">Loopable on Android</p>
+          <p className="medium-text white-text">Availbale by the end of 2024</p>
+          <button
+            className="green-button d-none d-sm-inline"
+            disabled="true"
+          >
+            Download
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -1,19 +1,9 @@
-@import "../../App.css";
 
 .MobileApp {
-  padding-inline: 10rem;
-  padding-top: 5rem;
-  background-color: #18ce40;
-}
-
-/* Nascondi la barra di scorrimento */
-.parallax-container::-webkit-scrollbar {
-  display: none;
-}
-
-/* Stile alternativo per la barra di scorrimento (opzionale) */
-.parallax-container::-webkit-scrollbar {
-  width: 0; /* Nascondi la barra di scorrimento in WebKit */
+  background-color: #464646;
+  border-radius: 15px;
+  padding-inline: 100px;
+  padding-block: 55px;
 }
 
 @media only screen and (max-width: 480px) {
