@@ -6,7 +6,7 @@ function MobileApp(props) {
   const { t } = props;
 
   return (
-    <div className="Features w-100 row mx-0">
+    <div className="Features w-100 row mx-0" id="MobileApp-section">
       <div className="col-12 col-sm mb-5">
           <p className="small-bold-text white-text p-0">
               <span className="green-text">-</span> {t("Mobile_App_Section_Title")}
