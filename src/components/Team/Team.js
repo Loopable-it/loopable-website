@@ -6,6 +6,7 @@ import "./Team.css";
 
 function Team(props) {
   const { t } = props;
+
   const teamList = [
     {
       image: MaggyPic,
