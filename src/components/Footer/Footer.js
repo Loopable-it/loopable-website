@@ -58,6 +58,16 @@ function Footer(props) {
           <p className="small-text white-text">
             {t("Hero_Description")}
           </p>
+          <a href="https://www.linkedin.com/company/loopable-it"
+            target="_blank"
+            rel="noreferrer">
+            <i className="fa-brands fa-linkedin green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}}></i>
+          </a>
+          <a href="https://github.com/Loopable-it"
+            target="_blank"
+            rel="noreferrer">
+            <i className="fa-brands fa-github green-text bg-white bg-opacity-50 p-2 rounded-circle" style={{fontSize: "20px"}}></i>
+          </a>
         </div>
 
         <div className="col-auto d-none d-md-block"></div>

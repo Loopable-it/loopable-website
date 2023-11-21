@@ -46,6 +46,7 @@ function Header(props) {
           routesList.map((item, index) => {
             return (
               <button
+                key={index}
                 className="transparent-button"
                 onClick={() => _scrollDownToTarget(item.route)}>
                 <p className="small-bold-text grey-text mx-3 mb-0" key={index}>
