@@ -33,6 +33,15 @@ function Header(props) {
     }
   ];
 
+  const onLanguageChanged = ({ currentTarget }) => {
+    const language = currentTarget.value;
+    props.i18n.changeLanguage(language);
+  };
+
+  const isLanguageSelected = (language) => {
+    return props.i18n.language === language ? "small-bold-text grey-text" : "small-text grey-text";
+  };
+
   const _scrollDownToTarget = scrollDownToTarget;
 
   return (
@@ -60,6 +69,22 @@ function Header(props) {
       </div>
 
       <div className="d-flex justify-content-evenly">
+        <button
+          className="transparent-button"
+          value="en"
+          onClick={(value) => onLanguageChanged(value)}
+        >
+          <p className={`${isLanguageSelected("en")} m-0`}>EN</p>
+        </button>
+
+        <button
+          className="transparent-button me-3"
+          value="it"
+          onClick={(value) => onLanguageChanged(value)}
+        >
+          <p className={`${isLanguageSelected("it")} m-0`}>IT</p>
+        </button>
+
         <button
           className="green-button d-none d-lg-inline"
           onClick={() => _scrollDownToTarget("MobileApp-section")}>
