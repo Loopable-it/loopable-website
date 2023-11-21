@@ -49,7 +49,7 @@ function Header(props) {
                 key={index}
                 className="transparent-button"
                 onClick={() => _scrollDownToTarget(item.route)}>
-                <p className="small-bold-text grey-text mx-3 mb-0" key={index}>
+                <p className="Header-underline-animation small-bold-text grey-text mx-3 mb-0" key={index}>
                   {t(item.name)}
                 </p>
               </button>
