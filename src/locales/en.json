@@ -65,7 +65,11 @@
   "Mobile_App_Title_2": "mobile app",
   "Newsletter_Subscribe": "Subscribe",
   "Mobile_App_Download": "Download",
-  "Mobile_Not_Available": "The app is not available yet, subscribe to our newsletter to be notified when it will become available.",
+  "Mobile_App_Not_Available": "The app is not available yet, subscribe to our newsletter to be notified when it will become available.",
+  "Mobile_App_iOS": "Loopable on iOS",
+  "Mobile_App_iOS_Available": "Available before summer 2024",
+  "Mobile_App_Android": "Loopable on Android",
+  "Mobile_App_Android_Available": "Availbale by the end of 2024",
 
   "FAQ_Section_Title": "FAQ",
   "FAQ_Title_1": "Any more",

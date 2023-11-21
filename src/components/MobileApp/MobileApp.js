@@ -18,7 +18,7 @@ function MobileApp(props) {
           </h2>
 
           <p className="medium-text white-text pe-5">
-            {t("Mobile_Not_Available")}
+            {t("Mobile_App_Not_Available")}
           </p>
 
           <button
@@ -33,8 +33,8 @@ function MobileApp(props) {
       <div className="col-12 col-sm mb-5">
         <div className="bg-white bg-opacity-50 rounded-4 p-4">
           <i className="fa-brands fa-apple mb-5" style={{fontSize: "30px"}}></i>
-          <p className="medium-bold-text white-text mt-5">Loopable on iOS</p>
-          <p className="medium-text white-text">Available before summer 2024</p>
+          <p className="medium-bold-text white-text mt-5">{t("Mobile_App_iOS")}</p>
+          <p className="medium-text white-text">{t("Mobile_App_iOS_Available")}</p>
           <button
             className="green-button"
             disabled={true}
@@ -46,8 +46,8 @@ function MobileApp(props) {
       <div className="col-12 col-sm mb-5">
         <div className="bg-white bg-opacity-50 rounded-4 p-4">
           <i className="fa-brands fa-android mb-5" style={{fontSize: "30px"}}></i>
-          <p className="medium-bold-text white-text mt-5">Loopable on Android</p>
-          <p className="medium-text white-text">Availbale by the end of 2024</p>
+          <p className="medium-bold-text white-text mt-5">{t("Mobile_App_Android")}</p>
+          <p className="medium-text white-text">{t("Mobile_App_Android_Available")}</p>
           <button
             className="green-button"
             disabled={true}
