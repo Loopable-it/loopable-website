@@ -81,17 +81,17 @@ function Footer(props) {
       </div>
 
       <div className="row mx-5 mt-5" style={{borderTop: "2px solid #FFF"}}>
-        <div className="col-12 col-sm-11">
-          <p className="small-text white-text mt-3">{t("Footer_Note")}</p>
+        <div className="col-12 col-sm-11 mt-3">
+          <p className="small-text white-text">{t("Footer_Note")}</p>
         </div>
 
-        <div className="col-12 col-sm-auto text-center">
+        <div className="col-12 col-sm-auto text-center text-sm-start mt-3">
           <button
             className="Footer-language-button"
             value="en"
             onClick={(value) => onLanguageChanged(value)}
           >
-            <p className={`${isLanguageSelected("en")}`}>EN</p>
+            <p className={`${isLanguageSelected("en")} m-0`}>EN</p>
           </button>
 
           <button
@@ -99,7 +99,7 @@ function Footer(props) {
             value="it"
             onClick={(value) => onLanguageChanged(value)}
           >
-            <p className={`${isLanguageSelected("it")}`}>IT</p>
+            <p className={`${isLanguageSelected("it")} m-0`}>IT</p>
           </button>
         </div>
       </div>
