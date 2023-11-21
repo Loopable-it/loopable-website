@@ -20,6 +20,16 @@ function Footer(props) {
     "info@loopable.it"
   ];
 
+  const onLanguageChanged = ({ currentTarget }) => {
+    const language = currentTarget.value;
+    props.i18n.changeLanguage(language);
+  };
+
+  const isLanguageSelected = (language) => {
+    return props.i18n.language === language ? "small-bold-text grey-text" : "small-text white-text";
+  };
+
+
   return (
     <div className="Footer w-100">
       <div className="row mx-5 d-flex justify-content-center justify-content-md-between">
@@ -71,7 +81,27 @@ function Footer(props) {
       </div>
 
       <div className="row mx-5 mt-5" style={{borderTop: "2px solid #FFF"}}>
+        <div className="col-12 col-sm-11">
           <p className="small-text white-text mt-3">{t("Footer_Note")}</p>
+        </div>
+
+        <div className="col-12 col-sm-auto text-center">
+          <button
+            className="Footer-language-button"
+            value="en"
+            onClick={(value) => onLanguageChanged(value)}
+          >
+            <p className={`${isLanguageSelected("en")}`}>EN</p>
+          </button>
+
+          <button
+            className="Footer-language-button"
+            value="it"
+            onClick={(value) => onLanguageChanged(value)}
+          >
+            <p className={`${isLanguageSelected("it")}`}>IT</p>
+          </button>
+        </div>
       </div>
     </div>
   );
