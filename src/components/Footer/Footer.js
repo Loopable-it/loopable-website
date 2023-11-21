@@ -1,4 +1,5 @@
 import { withTranslation } from "react-i18next";
+import { scrollDownToTarget } from "../../utilities/functionalities";
 
 import logo from "../../assets/loopable-logo-white.svg";
 import "./Footer.css";
@@ -7,12 +8,30 @@ function Footer(props) {
   const { t } = props;
 
   const routesList = [
-    "Header_Menu_Home",
-    "Header_Menu_Benefits",
-    "Header_Menu_How_it_works",
-    "Header_Menu_Business",
-    "Header_Menu_About_us",
-    "Header_Menu_FAQ",
+    {
+      name: "Header_Menu_Home",
+      route: "Home-section"
+    },
+    {
+      name: "Header_Menu_Benefits",
+      route: "Benefits-section"
+    },
+    {
+      name: "Header_Menu_How_it_works",
+      route: "How-it-works-section"
+    },
+    {
+      name: "Header_Menu_Business",
+      route: "Business-section"
+    },
+    {
+      name: "Header_Menu_About_us",
+      route: "About-us-section"
+    },
+    {
+      name: "Header_Menu_FAQ",
+      route: "FAQ-section"
+    }
   ];
 
   const contactList = [
@@ -29,6 +48,7 @@ function Footer(props) {
     return props.i18n.language === language ? "small-bold-text grey-text" : "small-text white-text";
   };
 
+  const _scrollDownToTarget = scrollDownToTarget;
 
   return (
     <div className="Footer w-100">
@@ -48,7 +68,11 @@ function Footer(props) {
             {routesList.map((item, index) => {
               return (
                 <li key={index}>
-                  <p className="small-text white-text m-0">{t(item)}</p>
+                  <button
+                    className="transparent-button"
+                    onClick={() => _scrollDownToTarget(item.route)}>
+                    <p className="small-text white-text m-0">{t(item.name)}</p>
+                  </button>
                 </li>
               );
             })}
@@ -87,7 +111,7 @@ function Footer(props) {
 
         <div className="col-12 col-sm-auto text-center text-sm-start mt-3">
           <button
-            className="Footer-language-button"
+            className="transparent-button"
             value="en"
             onClick={(value) => onLanguageChanged(value)}
           >
@@ -95,7 +119,7 @@ function Footer(props) {
           </button>
 
           <button
-            className="Footer-language-button"
+            className="transparent-button"
             value="it"
             onClick={(value) => onLanguageChanged(value)}
           >

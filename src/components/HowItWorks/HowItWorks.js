@@ -27,7 +27,7 @@ function HowItWorks(props) {
     ];
 
     return (
-        <div className="HowItWorks">
+        <div className="HowItWorks" id="How-it-works-section">
             <p className="small-bold-text grey-text text-center p-0">
                 <span className="green-text">-</span> {t("How_It_Works_Section_Title")}
             </p>

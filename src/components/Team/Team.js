@@ -24,7 +24,7 @@ function Team(props) {
   ];
 
   return (
-    <div className="Team w-100 mb-4">
+    <div className="Team w-100 mb-4" id="About-us-section">
       <p className="small-bold-text grey-text text-center p-0">
         <span className="green-text">-</span> {t("Team_Section_Title")}
       </p>

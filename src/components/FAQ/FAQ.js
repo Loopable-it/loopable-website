@@ -23,7 +23,7 @@ function FAQ(props) {
     };
     
     return (
-        <div className="FAQ">
+        <div className="FAQ" id="FAQ-section">
             <p className="small-bold-text grey-text text-center p-0">
                 <span className="green-text">-</span> {t("FAQ_Section_Title")}
             </p>

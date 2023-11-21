@@ -23,7 +23,7 @@ function Features(props) {
     ];
 
     return (
-        <div className="Features w-100 row mx-0">
+        <div className="Features w-100 row mx-0" id="Benefits-section">
             <div className="mb-5">
                 <p className="small-bold-text white-text p-0">
                     <span className="green-text">-</span> {t("Features_Section_Title")}

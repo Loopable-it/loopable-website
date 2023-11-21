@@ -8,7 +8,7 @@ function Hero(props) {
     const { t } = props;
 
     return (
-        <div className="Hero w-100">
+        <div className="Hero w-100" id="Home-section">
             <div className="Hero-container row mx-0">
                 <div className="col-12 col-md-6 px-0 align-self-center mt-5 mt-sm-0">
                     <span className="small-title bg-white rounded-3 py-2 px-3">

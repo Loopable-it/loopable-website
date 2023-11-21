@@ -7,12 +7,30 @@ import "./Header.css";
 function Header(props) {
   const { t } = props;
   const routesList = [
-    "Header_Menu_Home",
-    "Header_Menu_Benefits",
-    "Header_Menu_How_it_works",
-    "Header_Menu_Business",
-    "Header_Menu_About_us",
-    "Header_Menu_FAQ",
+    {
+      name: "Header_Menu_Home",
+      route: "Home-section"
+    },
+    {
+      name: "Header_Menu_Benefits",
+      route: "Benefits-section"
+    },
+    {
+      name: "Header_Menu_How_it_works",
+      route: "How-it-works-section"
+    },
+    {
+      name: "Header_Menu_Business",
+      route: "Business-section"
+    },
+    {
+      name: "Header_Menu_About_us",
+      route: "About-us-section"
+    },
+    {
+      name: "Header_Menu_FAQ",
+      route: "FAQ-section"
+    }
   ];
 
   const _scrollDownToTarget = scrollDownToTarget;
@@ -27,9 +45,13 @@ function Header(props) {
         {
           routesList.map((item, index) => {
             return (
-              <p className="small-bold-text grey-text mx-3 mb-0" key={index}>
-                {t(item)}
-              </p>
+              <button
+                className="transparent-button"
+                onClick={() => _scrollDownToTarget(item.route)}>
+                <p className="small-bold-text grey-text mx-3 mb-0" key={index}>
+                  {t(item.name)}
+                </p>
+              </button>
             )
           })
         }
@@ -39,8 +61,7 @@ function Header(props) {
       <div className="d-flex justify-content-evenly">
         <button
           className="green-button d-none d-lg-inline"
-          onClick={() => _scrollDownToTarget("MobileApp-section")}
-        >
+          onClick={() => _scrollDownToTarget("MobileApp-section")}>
           {t("Header_Get_app")}
         </button>
       </div>

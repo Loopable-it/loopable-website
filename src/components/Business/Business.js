@@ -23,7 +23,7 @@ function Business(props) {
     ];
 
     return (
-        <div className="Business w-100 row mx-0">
+        <div className="Business w-100 row mx-0" id="Business-section">
             <div className="mb-5 d-flex justify-content-start justify-sm-content-around">
                 <div className="m-0">
                     <p className="small-bold-text white-text p-0">
