@@ -2,6 +2,7 @@ import { withTranslation } from "react-i18next";
 
 import serachImage from "../../assets/loopable-search-product.webp";
 import priceImage from "../../assets/loopable-product-price.webp";
+import rentImage from "../../assets/loopable-rent-product.webp";
 
 import "./HowItWorks.css";
 
@@ -91,7 +92,7 @@ function HowItWorks(props) {
                     <div className="bg-white rounded-4 px-3 pt-3">
                         <h3 className="medium-bold-text grey-text">{t("How_It_Works_Feature_3_Title")}</h3>
                         <p className="medium-text grey-text">{t("How_It_Works_Feature_3_Subtitle")}</p>
-                        <img src={serachImage} alt="Gestione noleggi loopable" className="img-fluid"/>
+                        <img src={rentImage} alt="Gestione noleggi loopable" className="img-fluid"/>
                     </div>
                 </div>
             </div>
