@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import serachImage from "../../assets/loopable-search-product.webp";
 import priceImage from "../../assets/loopable-product-price.webp";
 import rentImage from "../../assets/loopable-rent-product.webp";
+import productListImage from "../../assets/loopable-products-list-app.webp";
 
 import "./HowItWorks.css";
 
@@ -39,11 +40,11 @@ function HowItWorks(props) {
             </h2>
 
             <div className="row mx-0 my-5">
-                <div className="col-12 col-md-6 px-0 bg-secondary">
-                    
+                <div className="col-12 col-md-6 px-0">
+                    <img src={productListImage} alt="Loopable noleggio oggetti" className="img-fluid"/>
                 </div>
 
-                <div className="col-12 col-md-6 px-0">
+                <div className="col-12 col-md-6 px-0 align-self-center">
                     {
                         stepsList.map((item, index) => {
                             let iconStyle = index !== stepsList.length - 1 ? 
