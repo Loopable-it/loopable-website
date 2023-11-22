@@ -52,7 +52,7 @@ function Footer(props) {
 
   return (
     <div className="Footer w-100">
-      <div className="row mx-5 d-flex justify-content-center justify-content-md-between">
+      <div className="row mx-0 mx-xl-5 d-flex justify-content-center justify-content-md-between">
         <div className="col-12 text-center mb-3 col-md-2 text-md-start mb-md-0">
           <img src={logo} alt="Logo Loopable" className="Footer-logo mb-2" />
           <p className="small-text white-text">

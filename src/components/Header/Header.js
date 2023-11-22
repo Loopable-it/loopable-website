@@ -50,7 +50,7 @@ function Header(props) {
         <img src={logo} alt="Logo Loopable" className="Header-logo" />
       </a>
 
-      <div className="d-none d-lg-flex justify-content-center align-items-center">
+      <div className="d-none d-xl-flex justify-xl-content-center align-xl-items-center">
         {
           routesList.map((item, index) => {
             return (
@@ -65,7 +65,6 @@ function Header(props) {
             )
           })
         }
-        <p className="small-bold-text grey-text mx-3 mb-0"></p>
       </div>
 
       <div className="d-flex justify-content-evenly">
