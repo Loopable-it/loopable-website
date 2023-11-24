@@ -44,7 +44,7 @@ function Business(props) {
                 featuresList.map((item, index) => {
                     return (
                         <div className="col-12 col-md-4" key={index}>
-                            <i className={`${item.icon} grey-text p-4 bg-light bg-opacity-75 rounded-4`} style={{fontSize: "25px"}}></i>
+                            <i className={`${item.icon} grey-text p-4 rounded-4`} style={{fontSize: "25px", backgroundColor: "#F8F8F8"}}></i>
                             <h3 className="medium-bold-text white-text my-3">{t(item.title)}</h3>
                             <p className="medium-text white-text">{t(item.subtitle)}</p>
                         </div>

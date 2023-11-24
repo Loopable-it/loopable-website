@@ -77,7 +77,7 @@ function Header(props) {
         </button>
 
         <button
-          className="transparent-button me-3"
+          className="transparent-button me-0 me-lg-3"
           value="it"
           onClick={(value) => onLanguageChanged(value)}
         >
