@@ -21,9 +21,9 @@ function Hero(props) {
                         <span className="green-text">{t("Hero_Title_2")}</span>
                     </h1>
 
-                    <p className="medium-text grey-text p-0">
+                    <h2 className="medium-text grey-text p-0">
                         {t("Hero_Description")}
-                    </p>
+                    </h2>
                 </div>
 
                 <div className="col-12 col-md-6 p-0 align-self-end">
