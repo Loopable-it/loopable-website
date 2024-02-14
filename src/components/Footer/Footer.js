@@ -36,7 +36,7 @@ function Footer(props) {
 
   const contactList = [
     "www.loopable.it",
-    "info@loopable.it"
+    "loopable.italia@gmail.com"
   ];
 
   const onLanguageChanged = ({ currentTarget }) => {
@@ -62,6 +62,11 @@ function Footer(props) {
             target="_blank"
             rel="noreferrer">
             <i className="fa-brands fa-linkedin green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}}></i>
+          </a>
+          <a href="https://www.instagram.com/loopable.it/"
+            target="_blank"
+            rel="noreferrer">
+            <i className="fa-brands fa-instagram green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}}></i>
           </a>
           <a href="https://github.com/Loopable-it"
             target="_blank"
@@ -116,7 +121,7 @@ function Footer(props) {
 
       <div className="row mx-3 mt-5" style={{borderTop: "2px solid #FFF"}}>
         <div className="col-12 col-sm mt-3">
-          <p className="small-text white-text text-center text-sm-start">{t("Footer_Note")}</p>
+          <p className="small-text white-text text-center text-sm-start">{t("Footer_Note", {year: `${new Date().getFullYear()}`})}</p>
         </div>
 
         <div className="col-12 col-sm-auto text-center text-sm-start mt-3">
