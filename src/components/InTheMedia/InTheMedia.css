@@ -1,6 +1,6 @@
 .InTheMedia {
     padding-inline: 100px;
-    padding-block: 55px;
+    padding-bottom: 55px;
 }
 
 .Media-card:hover {
@@ -10,13 +10,17 @@
 @media only screen and (max-width: 768px) {
     .InTheMedia {
         padding-block: 40px;
-        padding-inline: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Media-card {
+        max-width: 330px;
     }
 } 
 
 @media only screen and (max-width: 960px) and (min-width: 768px){
     .InTheMedia {
         padding-block: 30px;
-        padding-inline: 40px;
+        padding-bottom: 40px;
     }
 }
