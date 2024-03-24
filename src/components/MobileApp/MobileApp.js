@@ -13,7 +13,7 @@ function MobileApp(props) {
           </p>
 
           <h2 className="large-title white-text">
-            {t("Mobile_App_Title_1")}<br/>
+              {t("Mobile_App_Title_1")}<br/>
               <span className="green-text">{t("Mobile_App_Title_2")}</span>
           </h2>
 

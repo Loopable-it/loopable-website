@@ -49,7 +49,7 @@ function HowItWorks(props) {
                         stepsList.map((item, index) => {
                             let iconStyle = index !== stepsList.length - 1 ? 
                                 "grey-text bg-body-secondary bg-opacity-75" : 
-                                "green-text light-green-bg"
+                                "green-text bg-light-green"
                             
                             let textStyle = index !== stepsList.length - 1 ? 
                                 "grey-text" : 

@@ -3,10 +3,6 @@
     padding-block: 55px;
 }
 
-.light-green-bg {
-    background-color: #18ce4020;
-}
-
 @media only screen and (max-width: 768px) {
     .HowItWorks {
         padding-block: 40px;

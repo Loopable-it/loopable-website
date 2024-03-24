@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Team from "./components/Team/Team";
+import InTheMedia from "./components/InTheMedia/InTheMedia";
 import MobileApp from "./components/MobileApp/MobileApp";
 import Footer from "./components/Footer/Footer";
 import Business from "./components/Business/Business";
@@ -17,6 +18,7 @@ function App() {
       <HowItWorks></HowItWorks>
       <Business></Business>
       <Team></Team>
+      <InTheMedia></InTheMedia>
       <MobileApp></MobileApp>
       <FAQ></FAQ>
       <Footer></Footer>

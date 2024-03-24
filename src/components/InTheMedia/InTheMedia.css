@@ -1,17 +1,21 @@
-.FAQ {
+.InTheMedia {
     padding-inline: 100px;
     padding-block: 55px;
 }
 
+.Media-card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
 @media only screen and (max-width: 768px) {
-    .FAQ {
+    .InTheMedia {
         padding-block: 40px;
         padding-inline: 20px;
     }
 } 
 
 @media only screen and (max-width: 960px) and (min-width: 768px){
-    .FAQ {
+    .InTheMedia {
         padding-block: 30px;
         padding-inline: 40px;
     }

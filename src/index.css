@@ -111,6 +111,15 @@ body {
   border: 0;
 }
 
+/*Background*/
+.bg-green {
+  background-color: #18ce40;
+}
+
+.bg-light-green {
+  background-color: #18ce4020;
+}
+
 img {
   -webkit-user-drag: none;
   user-select: none;
