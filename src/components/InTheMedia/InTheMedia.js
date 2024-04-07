@@ -40,7 +40,7 @@ function InTheMedia(props) {
             </h2>
 
             <div className="col-1 d-none d-md-flex align-items-start">
-                <img src={stroke} alt="" className="img-fluid image-scale-animation"/>
+                <img src={stroke} alt="" className="img-fluid"/>
             </div>
 
             {
@@ -70,7 +70,7 @@ function InTheMedia(props) {
             }
 
             <div className="col-1 d-none d-md-flex align-items-end">
-                <img src={stroke} alt="" className="img-fluid image-scale-animation" style={{rotate: "180deg"}}/>
+                <img src={stroke} alt="" className="img-fluid" style={{rotate: "180deg"}}/>
             </div>
         </div>
     );
