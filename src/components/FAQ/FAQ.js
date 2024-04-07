@@ -38,6 +38,7 @@ function FAQ(props) {
                     return (
                         <div className="my-3" key={index}>
                             <div
+                                role="button"
                                 className="bg-white grey-text rounded-4 p-3 d-flex justify-content-between"
                                 onClick={() => toggleQuestion(index)}>
                                 <p className="medium-bold-text m-0">{t(item.question)}</p>
