@@ -7,6 +7,7 @@
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
+
 @keyframes image-scale-keyframes {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
