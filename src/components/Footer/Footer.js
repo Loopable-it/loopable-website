@@ -3,6 +3,7 @@ import { scrollDownToTarget } from "../../utilities/functionalities";
 
 import logo from "../../assets/loopable-logo-white.svg";
 import "./Footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer(props) {
   const { t } = props;
@@ -61,17 +62,17 @@ function Footer(props) {
           <a href="https://www.linkedin.com/company/loopable-it"
             target="_blank"
             rel="noreferrer">
-            <i className="fa-brands fa-linkedin green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}}></i>
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
           </a>
           <a href="https://www.instagram.com/loopable.it/"
             target="_blank"
             rel="noreferrer">
-            <i className="fa-brands fa-instagram green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}}></i>
-          </a>
+            <FontAwesomeIcon icon="fa-brands fa-instagram" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
+         </a>
           <a href="https://github.com/Loopable-it"
             target="_blank"
             rel="noreferrer">
-            <i className="fa-brands fa-github green-text bg-white bg-opacity-50 p-2 rounded-circle" style={{fontSize: "20px"}}></i>
+            <FontAwesomeIcon icon="fa-brands fa-github" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
           </a>
         </div>
 

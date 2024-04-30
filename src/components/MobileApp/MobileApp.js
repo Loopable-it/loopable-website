@@ -1,6 +1,7 @@
 import { withTranslation } from "react-i18next";
 
 import "./MobileApp.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MobileApp(props) {
   const { t } = props;
@@ -32,7 +33,7 @@ function MobileApp(props) {
 
       <div className="col-12 col-sm mb-5">
         <div className="bg-white bg-opacity-50 rounded-4 p-4">
-          <i className="fa-brands fa-apple mb-5" style={{fontSize: "30px"}}></i>
+          <FontAwesomeIcon icon="fa-brands fa-apple" className="mb-5" style={{fontSize: "30px"}} />         
           <p className="medium-bold-text white-text mt-5">{t("Mobile_App_iOS")}</p>
           <p className="medium-text white-text">{t("Mobile_App_iOS_Available")}</p>
           <button
@@ -45,7 +46,7 @@ function MobileApp(props) {
       </div>
       <div className="col-12 col-sm mb-5">
         <div className="bg-white bg-opacity-50 rounded-4 p-4">
-          <i className="fa-brands fa-android mb-5" style={{fontSize: "30px"}}></i>
+        <FontAwesomeIcon icon="fa-brands fa-android" className="mb-5" style={{fontSize: "30px"}} />
           <p className="medium-bold-text white-text mt-5">{t("Mobile_App_Android")}</p>
           <p className="medium-text white-text">{t("Mobile_App_Android_Available")}</p>
           <button

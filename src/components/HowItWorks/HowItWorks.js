@@ -6,23 +6,24 @@ import rentImage from "../../assets/loopable-rent-product.webp";
 import productListImage from "../../assets/loopable-products-list-app.webp";
 
 import "./HowItWorks.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function HowItWorks(props) {
     const { t } = props;
 
     const stepsList = [
         {
-            icon: "fa-solid fa-magnifying-glass",
+            icon: "magnifying-glass",
             title: "How_It_Works_Step_1_Title",
             subtitle: "How_It_Works_Step_1_Subtitle"
         },
         {
-            icon: "fa-solid fa-thumbs-up",
+            icon: "thumbs-up",
             title: "How_It_Works_Step_2_Title",
             subtitle: "How_It_Works_Step_2_Subtitle"
         },
         {
-            icon: "fa-solid fa-wand-magic-sparkles",
+            icon: "wand-magic-sparkles",
             title: "How_It_Works_Step_3_Title",
             subtitle: "How_It_Works_Step_3_Subtitle"
         },
@@ -57,7 +58,7 @@ function HowItWorks(props) {
                             return (
                                 <div className="row mx-0 mb-5" key={index}>
                                     <div className="col-auto mb-3 mb-sm-0">
-                                        <i className={`${item.icon} ${iconStyle} p-4 rounded-circle`} style={{fontSize: "25px"}}></i>
+                                    <FontAwesomeIcon icon={`${item.icon}`} className={`${iconStyle} p-4 rounded-circle`} style={{fontSize: "25px"}}/>                        
                                     </div>
                                     <div className="col align-self-center">
                                         <h3 className={`medium-bold-text ${textStyle} m-0`}>{t(item.title)}</h3>

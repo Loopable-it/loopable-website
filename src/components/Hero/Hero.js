@@ -3,6 +3,9 @@ import { withTranslation } from "react-i18next";
 import mockup from "../../assets/loopable-ios-app.webp";
 
 import "./Hero.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 
 function Hero(props) {
     const { t } = props;
@@ -12,7 +15,7 @@ function Hero(props) {
             <div className="Hero-container row mx-0">
                 <div className="col-12 col-md-6 px-0 align-self-center mt-5 mt-md-0">
                     <span className="small-title bg-white rounded-3 py-2 px-3">
-                        <i className="fa-solid fa-star me-2" style={{color: '#18ce40'}}></i>
+                    <FontAwesomeIcon icon="star" className="me-2 star-icon" style={{color: '#18ce40'}} />
                         {t("Hero_Badge")}
                     </span>
 

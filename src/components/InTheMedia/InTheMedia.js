@@ -4,6 +4,7 @@ import radio from "../../assets/radio-105.png";
 import stroke from "../../assets/stroke.svg";
 
 import "./InTheMedia.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function InTheMedia(props) {
     const { t } = props;
@@ -13,7 +14,8 @@ function InTheMedia(props) {
             case "Interview":
                 return (
                     <span className="small-bold-text green-text bg-light-green rounded-3 py-1 px-2">
-                        <i className="fa-solid fa-microphone-lines me-2"></i> {t("In_The_Media_Interview_Type")}
+                        <FontAwesomeIcon icon="microphone-lines" className="me-2" />
+                         {t("In_The_Media_Interview_Type")}
                     </span>
                 );
             default:
@@ -56,10 +58,11 @@ function InTheMedia(props) {
                                     </h3>
                                     <div className="small-text grey-text mt-3">
                                         <span className="me-2">
-                                            <i className="fa-solid fa-newspaper green-text me-2"></i> {item.by}
+                                            <FontAwesomeIcon icon="newspaper" className="green-text me-2"/>
+                                             {item.by}
                                         </span>
                                         <span className="ms-2">
-                                            <i className="fa-solid fa-calendar-day green-text me-2"></i> {item.at}
+                                        <FontAwesomeIcon icon="calendar-day" className="green-text me-2"/> {item.at}
                                         </span>
                                     </div>
                                 </div>
