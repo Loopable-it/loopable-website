@@ -60,16 +60,19 @@ function Footer(props) {
             {t("Hero_Description")}
           </p>
           <a href="https://www.linkedin.com/company/loopable-it"
+            aria-label={t('Link_Description', { social: 'Linkedin' })}
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon="fa-brands fa-linkedin" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
           </a>
           <a href="https://www.instagram.com/loopable.it/"
+            aria-label={t('Link_Description', { social: 'Instagram' })}
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon="fa-brands fa-instagram" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
          </a>
           <a href="https://github.com/Loopable-it"
+            aria-label={t('Link_Description', { social: 'Github' })}
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon="fa-brands fa-github" className="green-text bg-white bg-opacity-50 p-2 rounded-circle me-2" style={{fontSize: "20px"}} />
