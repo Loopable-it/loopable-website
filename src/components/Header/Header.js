@@ -35,6 +35,7 @@ function Header(props) {
 
   const onLanguageChanged = ({ currentTarget }) => {
     const language = currentTarget.value;
+    document.documentElement.lang = language;
     props.i18n.changeLanguage(language);
   };
 
