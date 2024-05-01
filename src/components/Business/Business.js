@@ -1,22 +1,23 @@
 import { withTranslation } from "react-i18next";
 
 import "./Business.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Business(props) {
     const { t } = props;
     const featuresList = [
         {
-            icon: "fa-solid fa-rectangle-ad",
+            icon: "rectangle-ad",
             title: "Business_Features_1_Title",
             subtitle: "Business_Features_1_Subtitle"
         },
         {
-            icon: "fa-solid fa-list-check",
+            icon: "list-check",
             title: "Business_Features_2_Title",
             subtitle: "Business_Features_2_Subtitle"
         },
         {
-            icon: "fa-solid fa-arrow-up-right-dots",
+            icon: "arrow-up-right-dots",
             title: "Business_Features_3_Title",
             subtitle: "Business_Features_3_Subtitle"
         }
@@ -44,7 +45,7 @@ function Business(props) {
                 featuresList.map((item, index) => {
                     return (
                         <div className="col-12 col-md-4" key={index}>
-                            <i className={`${item.icon} grey-text p-4 rounded-4`} style={{fontSize: "25px", backgroundColor: "#F8F8F8"}}></i>
+                            <FontAwesomeIcon icon={`${item.icon}`} className="grey-text p-4 rounded-4" style={{fontSize: "25px", backgroundColor: "#F8F8F8"}}/>
                             <h3 className="medium-bold-text white-text my-3">{t(item.title)}</h3>
                             <p className="medium-text white-text">{t(item.subtitle)}</p>
                         </div>

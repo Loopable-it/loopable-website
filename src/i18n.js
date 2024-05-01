@@ -10,6 +10,8 @@ if (language === undefined) {
   language = 'it';
 }
 
+if(!i18n.language) document.documentElement.lang = 'it';
+
 i18n.use(initReactI18next).init({
   resources: {
     en: { translations: en },

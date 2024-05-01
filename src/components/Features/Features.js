@@ -1,22 +1,23 @@
 import { withTranslation } from "react-i18next";
 
 import "./Features.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Features(props) {
     const { t } = props;
     const featuresList = [
         {
-            icon: "fa-solid fa-pen-nib",
+            icon: "fa-pen-nib",
             title: "Features_1_Title",
             subtitle: "Features_1_Subtitle"
         },
         {
-            icon: "fa-solid fa-bell",
+            icon: "fa-bell",
             title: "Features_2_Title",
             subtitle: "Features_2_Subtitle"
         },
         {
-            icon: "fa-solid fa-star",
+            icon: "fa-star",
             title: "Features_3_Title",
             subtitle: "Features_3_Subtitle"
         }
@@ -38,7 +39,7 @@ function Features(props) {
                 featuresList.map((item, index) => {
                     return (
                         <div className="col-12 col-md-4" key={index}>
-                            <i className={`${item.icon} green-text p-4 rounded-4`} style={{fontSize: "25px", backgroundColor: "#F8F8F8"}}></i>
+                            <FontAwesomeIcon icon={`${item.icon}`} className=" green-text p-4 rounded-4" style={{fontSize: "25px", backgroundColor: "#F8F8F8"}}/>
                             <h3 className="medium-bold-text white-text my-3">{t(item.title)}</h3>
                             <p className="medium-text white-text">{t(item.subtitle)}</p>
                         </div>

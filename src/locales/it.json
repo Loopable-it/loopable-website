@@ -86,5 +86,7 @@
   "Footer_Company": "Azienda",
   "Footer_Contacts": "Contatti",
   "Footer_Subscribe": "Iscriviti alla newsletter",
-  "Footer_Note": "© {{year}} Loopable. Tutti i diritti riservati"
+  "Footer_Note": "© {{year}} Loopable. Tutti i diritti riservati",
+
+  "Link_Description": "Visita il nostro profilo {{social}}"
 }

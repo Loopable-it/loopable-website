@@ -5,6 +5,10 @@
     padding-inline: 100px;
 }
 
+.star-icon {
+    min-width: 18px;
+}
+
 .Hero-container {
     min-height: 80vh
 }
