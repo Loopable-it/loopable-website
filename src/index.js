@@ -7,6 +7,7 @@ import "./i18n";
 import fontAwesomeSetup from "./modules/fontAwesomeSetup";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+fontAwesomeSetup();
 root.render(
   <React.StrictMode>
     <App />

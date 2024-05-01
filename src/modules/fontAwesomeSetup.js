@@ -17,27 +17,28 @@ import {
   faMinus,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
-library.add(
-  fas,
-  faStar,
-  faRectangleAd,
-  faListCheck,
-  faArrowUpRightDots,
-  faPenNib,
-  faBell,
-  faMagnifyingGlass,
-  faThumbsUp,
-  faWandMagicSparkles,
-  faMicrophoneLines,
-  faNewspaper,
-  faCalendarDay,
-  faMinus,
-  faPlus,
-  faLinkedin,
-  faInstagram,
-  faGithub,
-  faAndroid,
-  faApple
-);
 
-export default library;
+const init = () =>
+  library.add(
+    fas,
+    faStar,
+    faRectangleAd,
+    faListCheck,
+    faArrowUpRightDots,
+    faPenNib,
+    faBell,
+    faMagnifyingGlass,
+    faThumbsUp,
+    faWandMagicSparkles,
+    faMicrophoneLines,
+    faNewspaper,
+    faCalendarDay,
+    faMinus,
+    faPlus,
+    faLinkedin,
+    faInstagram,
+    faGithub,
+    faAndroid,
+    faApple
+  );
+export default init;
