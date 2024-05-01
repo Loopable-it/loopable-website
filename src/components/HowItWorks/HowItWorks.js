@@ -58,7 +58,7 @@ function HowItWorks(props) {
                             return (
                                 <div className="row mx-0 mb-5" key={index}>
                                     <div className="col-auto mb-3 mb-sm-0">
-                                    <FontAwesomeIcon icon={`${item.icon}`} className={`${iconStyle} p-4 rounded-circle`} style={{fontSize: "25px"}}/>                        
+                                    <FontAwesomeIcon icon={`${item.icon}`} className={`${iconStyle} p-4 rounded-4`} style={{fontSize: "25px"}}/>                        
                                     </div>
                                     <div className="col align-self-center">
                                         <h3 className={`medium-bold-text ${textStyle} m-0`}>{t(item.title)}</h3>
